@@ -1,0 +1,277 @@
+[2025-10-17 12:09:43] FrameController: POST Search request received - {search=wo}
+[2025-10-17 12:09:43] FrameService: Validating search term - wo
+[2025-10-17 12:09:43] FrameService: Calling repository to search frames
+[2025-10-17 12:09:43] FrameRepository: Searching frames with termwo
+[2025-10-17 12:09:43] FrameRepository: Error searching frames - Required input parameter 'p_search_term' is missing
+[2025-10-17 12:09:43] FrameController: POST Search failed - Error searching frames: Required input parameter 'p_search_term' is missing
+[2025-10-17 12:22:47] FrameController: POST Search request received - {search=wo}
+[2025-10-17 12:22:47] FrameService: Validating search term - wo
+[2025-10-17 12:22:47] FrameService: Calling repository to search frames
+[2025-10-17 12:22:47] FrameRepository: Searching frames with termwo
+[2025-10-17 12:22:47] FrameRepository: Error searching frames - Required input parameter 'p_search_term' is missing
+[2025-10-17 12:22:47] FrameController: POST Search failed - Error searching frames: Required input parameter 'p_search_term' is missing
+[2025-10-17 12:24:35] FrameController: POST Search request received - {search=wo}
+[2025-10-17 12:24:35] FrameService: Validating search term - wo
+[2025-10-17 12:24:35] FrameService: Calling repository to search frames
+[2025-10-17 12:24:35] FrameRepository: Searching frames with termwo
+[2025-10-17 12:24:35] FrameRepository: Error searching frames - Required input parameter 'search' is missing
+[2025-10-17 12:24:35] FrameController: POST Search failed - Error searching frames: Required input parameter 'search' is missing
+[2025-10-17 12:28:02] FrameController: POST Search request received - {search=wo}
+[2025-10-17 12:28:02] FrameService: Validating search term - wo
+[2025-10-17 12:28:02] FrameService: Calling repository to search frames
+[2025-10-17 12:28:02] FrameRepository: Searching frames with termwo
+[2025-10-17 12:28:02] DaoCommon params: [wo]
+[2025-10-17 12:28:02] DaoCommon SQL: CALL search_frames(?)
+[2025-10-17 12:28:02] DaoCommon Success: Returned 1 records
+[2025-10-17 12:28:02] FrameRepository: Search found 1 frames
+[2025-10-17 12:28:02] FrameController: POST Search successful, returning 1 frames
+[2025-10-17 12:29:05] FrameController: POST Search request received - {search=w}
+[2025-10-17 12:29:05] FrameService: Validating search term - w
+[2025-10-17 12:29:05] FrameService: Search term validation failed - minimum 2 characters required
+[2025-10-17 12:29:05] FrameController: POST Search failed - Search term must be at least 2 characters long
+[2025-10-17 12:29:14] FrameController: POST Search request received - {search=yy}
+[2025-10-17 12:29:14] FrameService: Validating search term - yy
+[2025-10-17 12:29:14] FrameService: Calling repository to search frames
+[2025-10-17 12:29:14] FrameRepository: Searching frames with termyy
+[2025-10-17 12:29:14] DaoCommon params: [yy]
+[2025-10-17 12:29:14] DaoCommon SQL: CALL search_frames(?)
+[2025-10-17 12:29:14] DaoCommon Success: Returned 0 records
+[2025-10-17 12:29:14] FrameRepository: Search found 0 frames
+[2025-10-17 12:29:14] FrameController: POST Search successful, returning 0 frames
+[2025-10-17 12:29:20] FrameController: POST Search request received - {search=wo}
+[2025-10-17 12:29:20] FrameService: Validating search term - wo
+[2025-10-17 12:29:20] FrameService: Calling repository to search frames
+[2025-10-17 12:29:20] FrameRepository: Searching frames with termwo
+[2025-10-17 12:29:20] DaoCommon params: [wo]
+[2025-10-17 12:29:20] DaoCommon SQL: CALL search_frames(?)
+[2025-10-17 12:29:20] DaoCommon Success: Returned 1 records
+[2025-10-17 12:29:20] FrameRepository: Search found 1 frames
+[2025-10-17 12:29:20] FrameController: POST Search successful, returning 1 frames
+[2025-10-17 12:36:46] FrameController: POST Search request received - {search=wo}
+[2025-10-17 12:36:46] FrameService: Validating search term - wo
+[2025-10-17 12:36:46] FrameService: Calling repository to search frames
+[2025-10-17 12:36:46] FrameRepository: Searching frames with termwo
+[2025-10-17 12:36:46] DaoCommon params: [wo]
+[2025-10-17 12:36:46] DaoCommon SQL: CALL search_frames(?)
+[2025-10-17 12:36:46] DaoCommon Success: Returned 1 records
+[2025-10-17 12:36:46] FrameRepository: Search found 1 frames
+[2025-10-17 12:36:46] FrameController: POST Search successful, returning 1 frames
+[2025-10-17 12:58:58] FrameController: POST Search request received - {search=wo}
+[2025-10-17 12:58:58] FrameService: Validating search term - wo
+[2025-10-17 12:58:58] FrameService: Calling repository to search frames
+[2025-10-17 12:58:58] FrameRepository: Searching frames with termwo
+[2025-10-17 12:58:58] DaoCommon params: [wo]
+[2025-10-17 12:58:58] DaoCommon SQL: CALL search_frames(?)
+[2025-10-17 12:58:58] DaoCommon Success: Returned 1 records
+[2025-10-17 12:58:58] FrameRepository: Search found 1 frames
+[2025-10-17 12:58:58] FrameController: POST Search successful, returning 1 frames
+[2025-10-17 12:58:59] FrameController: POST Search request received - {search=wo}
+[2025-10-17 12:58:59] FrameService: Validating search term - wo
+[2025-10-17 12:58:59] FrameService: Calling repository to search frames
+[2025-10-17 12:58:59] FrameRepository: Searching frames with termwo
+[2025-10-17 12:58:59] DaoCommon params: [wo]
+[2025-10-17 12:58:59] DaoCommon SQL: CALL search_frames(?)
+[2025-10-17 12:58:59] DaoCommon Success: Returned 1 records
+[2025-10-17 12:58:59] FrameRepository: Search found 1 frames
+[2025-10-17 12:58:59] FrameController: POST Search successful, returning 1 frames
+[2025-10-17 12:59:02] FrameController: POST Search request received - {search=wo}
+[2025-10-17 12:59:02] FrameService: Validating search term - wo
+[2025-10-17 12:59:02] FrameService: Calling repository to search frames
+[2025-10-17 12:59:02] FrameRepository: Searching frames with termwo
+[2025-10-17 12:59:02] DaoCommon params: [wo]
+[2025-10-17 12:59:02] DaoCommon SQL: CALL search_frames(?)
+[2025-10-17 12:59:02] DaoCommon Success: Returned 1 records
+[2025-10-17 12:59:02] FrameRepository: Search found 1 frames
+[2025-10-17 12:59:02] FrameController: POST Search successful, returning 1 frames
+[2025-10-17 12:59:27] FrameController: POST Search request received - {search=wo}
+[2025-10-17 12:59:27] FrameService: Validating search term - wo
+[2025-10-17 12:59:27] FrameService: Calling repository to search frames
+[2025-10-17 12:59:27] FrameRepository: Searching frames with termwo
+[2025-10-17 12:59:27] DaoCommon params: [wo]
+[2025-10-17 12:59:27] DaoCommon SQL: CALL search_frames(?)
+[2025-10-17 12:59:27] DaoCommon Success: Returned 1 records
+[2025-10-17 12:59:27] FrameRepository: Search found 1 frames
+[2025-10-17 12:59:27] FrameController: POST Search successful, returning 1 frames
+[2025-10-17 13:22:12] LensController: POST Search request received - {search=wo}
+[2025-10-17 13:22:12] LensService: Validating search term - wo
+[2025-10-17 13:22:12] LensService: Calling repository to search lenses
+[2025-10-17 13:22:12] LensRepository: Searching lenses with term - wo
+[2025-10-17 13:22:12] DaoCommon params: [wo]
+[2025-10-17 13:22:12] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-17 13:22:12] DaoCommon Success: Returned 0 records
+[2025-10-17 13:22:12] LensRepository: Search found 0 lenses
+[2025-10-17 13:22:12] LensController: POST Search successful, returning 0 lenses
+[2025-10-17 13:22:40] LensController: POST Search request received - {search=ph}
+[2025-10-17 13:22:40] LensService: Validating search term - ph
+[2025-10-17 13:22:40] LensService: Calling repository to search lenses
+[2025-10-17 13:22:40] LensRepository: Searching lenses with term - ph
+[2025-10-17 13:22:40] DaoCommon params: [ph]
+[2025-10-17 13:22:40] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-17 13:22:40] DaoCommon Success: Returned 1 records
+[2025-10-17 13:22:40] LensRepository: Search found 1 lenses
+[2025-10-17 13:22:40] LensController: POST Search successful, returning 1 lenses
+[2025-10-17 13:23:03] LensController: POST Search request received - {search=bi}
+[2025-10-17 13:23:03] LensService: Validating search term - bi
+[2025-10-17 13:23:03] LensService: Calling repository to search lenses
+[2025-10-17 13:23:03] LensRepository: Searching lenses with term - bi
+[2025-10-17 13:23:03] DaoCommon params: [bi]
+[2025-10-17 13:23:03] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-17 13:23:03] DaoCommon Success: Returned 2 records
+[2025-10-17 13:23:03] LensRepository: Search found 2 lenses
+[2025-10-17 13:23:03] LensController: POST Search successful, returning 2 lenses
+[2025-10-17 14:07:24] LensController: POST Search request received - {search=bi}
+[2025-10-17 14:07:24] LensService: Validating search term - bi
+[2025-10-17 14:07:24] LensService: Calling repository to search lenses
+[2025-10-17 14:07:24] LensRepository: Searching lenses with term - bi
+[2025-10-17 14:07:24] DaoCommon params: [bi]
+[2025-10-17 14:07:24] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-17 14:07:24] DaoCommon Success: Returned 2 records
+[2025-10-17 14:07:24] LensRepository: Search found 2 lenses
+[2025-10-17 14:07:24] LensController: POST Search successful, returning 2 lenses
+[2025-10-17 14:07:30] LensController: POST Search request received - {search=bl}
+[2025-10-17 14:07:30] LensService: Validating search term - bl
+[2025-10-17 14:07:30] LensService: Calling repository to search lenses
+[2025-10-17 14:07:30] LensRepository: Searching lenses with term - bl
+[2025-10-17 14:07:30] DaoCommon params: [bl]
+[2025-10-17 14:07:30] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-17 14:07:30] DaoCommon Success: Returned 2 records
+[2025-10-17 14:07:30] LensRepository: Search found 2 lenses
+[2025-10-17 14:07:30] LensController: POST Search successful, returning 2 lenses
+[2025-10-17 14:28:34] BillRecordController: Create bill request received
+[2025-10-17 14:28:34] BillRecordService: Creating new bill for customer - Ramesh Kumar
+[2025-10-17 14:28:34] BillRecordRepository: Creating new bill for Ramesh Kumar
+[2025-10-17 14:28:34] DaoCommon params: [Ramesh Kumar, 9876543210, Chennai, 1, 1, 650.0, 2, 1, 1700.0, 0.0, 0.0, 100.0, CASH, 2000.0]
+[2025-10-17 14:28:34] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-17 14:28:34] DaoCommon Success: Returned 1 records
+[2025-10-17 14:28:34] BillRecordRepository: Bill created successfully
+[2025-10-17 14:28:34] BillRecordController: Bill created successfully - Number: BIL-2
+[2025-10-17 14:57:10] BillRecordController: Create bill request received
+[2025-10-17 14:57:10] BillRecordService: Creating new bill for customer - Ramesh Kumar
+[2025-10-17 14:57:10] BillRecordRepository: Creating new bill for Ramesh Kumar
+[2025-10-17 14:57:10] DaoCommon params: [Ramesh Kumar, 9876543210, Chennai, 1, 1, 650.0, 2, 1, 1700.0, 0.0, 0.0, 100.0, CASH, 2000.0]
+[2025-10-17 14:57:10] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-17 14:57:10] DaoCommon Success: Returned 1 records
+[2025-10-17 14:57:10] BillRecordRepository: Bill created successfully
+[2025-10-17 14:57:10] BillRecordController: Bill created successfully - Number: BIL-3
+[2025-10-17 15:55:16] BillController: Create bill request received
+[2025-10-17 15:55:16] BillRecordService: Creating new bill for customer - Ramesh Kumar
+[2025-10-17 15:55:16] BillRecordRepository: Creating new bill for Ramesh Kumar
+[2025-10-17 15:55:16] DaoCommon params: [Ramesh Kumar, 9876543210, Chennai, 1, 1, 650.0, 2, 1, 1700.0, 0.0, 0.0, 100.0, CASH, 2000.0]
+[2025-10-17 15:55:16] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-17 15:55:16] DaoCommon Success: Returned 1 records
+[2025-10-17 15:55:16] BillRecordRepository: Bill created successfully
+[2025-10-17 15:55:16] BillController: Bill created successfully - Number: BIL-4
+[2025-10-17 15:59:25] BillController: Create bill request received
+[2025-10-17 15:59:25] BillRecordService: Creating new bill for customer - Ramesh Kumar
+[2025-10-17 15:59:25] BillRecordRepository: Creating new bill for Ramesh Kumar
+[2025-10-17 15:59:25] DaoCommon params: [Ramesh Kumar, 9876543210, Chennai, 1, 1, 650.0, 2, 1, 1700.0, 0.0, 0.0, 100.0, CASH, 2000.0]
+[2025-10-17 15:59:25] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-17 15:59:25] DaoCommon Success: Returned 1 records
+[2025-10-17 15:59:25] BillRecordRepository: Bill created successfully
+[2025-10-17 15:59:25] BillController: Bill created successfully - Number: BIL-5
+[2025-10-17 16:29:25] BillController: Create bill request received
+[2025-10-17 16:29:25] BillRecordService: Creating new bill for customer - Suresh Kumar
+[2025-10-17 16:29:25] BillRecordRepository: Creating new bill for Suresh Kumar
+[2025-10-17 16:29:25] DaoCommon params: [Suresh Kumar, 9876543211, 456 Park Street, Mumbai, 3, 1, 3500.0, 4, 1, 2000.0, 150.0, 50.0, 300.0, UPI, 5400.0]
+[2025-10-17 16:29:25] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-17 16:29:25] DaoCommon Error: PreparedStatementCallback; SQL [CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)]; Cannot add or update a child row: a foreign key constraint fails (`billsystem`.`bill_record`, CONSTRAINT `FK3cny1he7wx65tqtbar36bovyw` FOREIGN KEY (`frame_id`) REFERENCES `frame` (`id`))
+[2025-10-17 16:29:25] BillRecordRepository: Error creating bill - Error executing stored procedure: PreparedStatementCallback; SQL [CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)]; Cannot add or update a child row: a foreign key constraint fails (`billsystem`.`bill_record`, CONSTRAINT `FK3cny1he7wx65tqtbar36bovyw` FOREIGN KEY (`frame_id`) REFERENCES `frame` (`id`))
+[2025-10-17 16:29:25] BillController: Create bill failed - Error creating bill: Error executing stored procedure: PreparedStatementCallback; SQL [CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)]; Cannot add or update a child row: a foreign key constraint fails (`billsystem`.`bill_record`, CONSTRAINT `FK3cny1he7wx65tqtbar36bovyw` FOREIGN KEY (`frame_id`) REFERENCES `frame` (`id`))
+[2025-10-17 16:30:32] BillController: Create bill request received
+[2025-10-17 16:30:32] BillRecordService: Creating new bill for customer - Ramesh Kumar
+[2025-10-17 16:30:32] BillRecordRepository: Creating new bill for Ramesh Kumar
+[2025-10-17 16:30:32] DaoCommon params: [Ramesh Kumar, 9876543210, 123 Main Street, Chennai, 1, 1, 2500.0, 1, 1, 1500.0, 100.0, 0.0, 200.0, CASH, 5000.0]
+[2025-10-17 16:30:32] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-17 16:30:32] DaoCommon Success: Returned 1 records
+[2025-10-17 16:30:32] BillRecordRepository: Bill created successfully
+[2025-10-17 16:30:32] BillRecordService: Attempting auto print for bill ID: 7
+[2025-10-17 16:30:32] DaoCommon params: [7]
+[2025-10-17 16:30:32] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-17 16:30:32] DaoCommon Success: Returned 1 records
+[2025-10-17 16:30:32] BillRecordRepository: Error getting bill by id - class java.util.LinkedHashMap cannot be cast to class com.BillSystem.Appticals.entity.BillRecord (java.util.LinkedHashMap is in module java.base of loader 'bootstrap'; com.BillSystem.Appticals.entity.BillRecord is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @3684bad4)
+[2025-10-17 16:30:32] BillRecordService: Print failed for bill 7 - Error getting bill: class java.util.LinkedHashMap cannot be cast to class com.BillSystem.Appticals.entity.BillRecord (java.util.LinkedHashMap is in module java.base of loader 'bootstrap'; com.BillSystem.Appticals.entity.BillRecord is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @3684bad4)
+[2025-10-17 16:30:32] BillRecordService: ✅ Bill auto-printed successfully - ID: 7
+[2025-10-17 16:30:32] BillController: Bill created successfully - Number: BIL-7
+[2025-10-17 16:32:00] BillController: Create bill request received
+[2025-10-17 16:32:00] BillRecordService: Creating new bill for customer - Ramesh Kumar
+[2025-10-17 16:32:00] BillRecordRepository: Creating new bill for Ramesh Kumar
+[2025-10-17 16:32:00] DaoCommon params: [Ramesh Kumar, 9876543210, 123 Main Street, Chennai, 2, 1, 2500.0, 5, 1, 1500.0, 100.0, 0.0, 200.0, CASH, 5000.0]
+[2025-10-17 16:32:00] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-17 16:32:00] DaoCommon Error: PreparedStatementCallback; SQL [CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)]; Cannot add or update a child row: a foreign key constraint fails (`billsystem`.`bill_record`, CONSTRAINT `FK3cny1he7wx65tqtbar36bovyw` FOREIGN KEY (`frame_id`) REFERENCES `frame` (`id`))
+[2025-10-17 16:32:00] BillRecordRepository: Error creating bill - Error executing stored procedure: PreparedStatementCallback; SQL [CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)]; Cannot add or update a child row: a foreign key constraint fails (`billsystem`.`bill_record`, CONSTRAINT `FK3cny1he7wx65tqtbar36bovyw` FOREIGN KEY (`frame_id`) REFERENCES `frame` (`id`))
+[2025-10-17 16:32:00] BillController: Create bill failed - Error creating bill: Error executing stored procedure: PreparedStatementCallback; SQL [CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)]; Cannot add or update a child row: a foreign key constraint fails (`billsystem`.`bill_record`, CONSTRAINT `FK3cny1he7wx65tqtbar36bovyw` FOREIGN KEY (`frame_id`) REFERENCES `frame` (`id`))
+[2025-10-17 16:32:23] BillController: Create bill request received
+[2025-10-17 16:32:23] BillRecordService: Creating new bill for customer - Ramesh Kumar
+[2025-10-17 16:32:23] BillRecordRepository: Creating new bill for Ramesh Kumar
+[2025-10-17 16:32:23] DaoCommon params: [Ramesh Kumar, 9876543210, 123 Main Street, Chennai, 1, 1, 2500.0, 5, 1, 1500.0, 100.0, 0.0, 200.0, CASH, 5000.0]
+[2025-10-17 16:32:23] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-17 16:32:23] DaoCommon Success: Returned 1 records
+[2025-10-17 16:32:23] BillRecordRepository: Bill created successfully
+[2025-10-17 16:32:23] BillRecordService: Attempting auto print for bill ID: 9
+[2025-10-17 16:32:23] DaoCommon params: [9]
+[2025-10-17 16:32:23] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-17 16:32:23] DaoCommon Success: Returned 1 records
+[2025-10-17 16:32:23] BillRecordRepository: Error getting bill by id - class java.util.LinkedHashMap cannot be cast to class com.BillSystem.Appticals.entity.BillRecord (java.util.LinkedHashMap is in module java.base of loader 'bootstrap'; com.BillSystem.Appticals.entity.BillRecord is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @3684bad4)
+[2025-10-17 16:32:23] BillRecordService: Print failed for bill 9 - Error getting bill: class java.util.LinkedHashMap cannot be cast to class com.BillSystem.Appticals.entity.BillRecord (java.util.LinkedHashMap is in module java.base of loader 'bootstrap'; com.BillSystem.Appticals.entity.BillRecord is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @3684bad4)
+[2025-10-17 16:32:23] BillRecordService: ✅ Bill auto-printed successfully - ID: 9
+[2025-10-17 16:32:23] BillController: Bill created successfully - Number: BIL-9
+[2025-10-17 16:36:40] BillController: Create bill request received
+[2025-10-17 16:36:40] BillRecordService: Creating new bill for customer - Ramesh Kumar
+[2025-10-17 16:36:40] BillRecordRepository: Creating new bill for Ramesh Kumar
+[2025-10-17 16:36:40] DaoCommon params: [Ramesh Kumar, 9876543210, 123 Main Street, Chennai, 1, 1, 2500.0, 5, 1, 1500.0, 100.0, 0.0, 200.0, CASH, 5000.0]
+[2025-10-17 16:36:40] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-17 16:36:40] DaoCommon Success: Returned 1 records
+[2025-10-17 16:36:40] BillRecordRepository: Bill created successfully
+[2025-10-17 16:36:40] BillRecordService: Attempting auto print for bill ID: 10
+[2025-10-17 16:36:40] DaoCommon params: [10]
+[2025-10-17 16:36:40] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-17 16:36:40] DaoCommon Success: Returned 1 records
+[2025-10-17 16:36:40] BillRecordRepository: Error getting bill by id - class java.util.LinkedHashMap cannot be cast to class com.BillSystem.Appticals.entity.BillRecord (java.util.LinkedHashMap is in module java.base of loader 'bootstrap'; com.BillSystem.Appticals.entity.BillRecord is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @414f9353)
+[2025-10-17 16:36:40] BillRecordService: Print failed for bill 10 - Error getting bill: class java.util.LinkedHashMap cannot be cast to class com.BillSystem.Appticals.entity.BillRecord (java.util.LinkedHashMap is in module java.base of loader 'bootstrap'; com.BillSystem.Appticals.entity.BillRecord is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @414f9353)
+[2025-10-17 16:36:40] BillRecordService: ✅ Bill auto-printed successfully - ID: 10
+[2025-10-17 16:36:40] BillController: Bill created successfully - Number: BIL-10
+[2025-10-17 16:46:49] BillController: Create bill request received
+[2025-10-17 16:46:49] BillRecordService: Creating new bill for customer - Ramesh Kumar
+[2025-10-17 16:46:49] BillRecordRepository: Creating new bill for Ramesh Kumar
+[2025-10-17 16:46:49] DaoCommon params: [Ramesh Kumar, 9876543210, 123 Main Street, Chennai, 1, 1, 2500.0, 5, 1, 1500.0, 100.0, 0.0, 200.0, CASH, 5000.0]
+[2025-10-17 16:46:49] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-17 16:46:49] DaoCommon Success: Returned 1 records
+[2025-10-17 16:46:49] BillRecordRepository: Bill created successfully
+[2025-10-17 16:46:49] BillRecordService: Attempting auto print for bill ID: 11
+[2025-10-17 16:46:49] DaoCommon params: [11]
+[2025-10-17 16:46:49] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-17 16:46:49] DaoCommon Success: Returned 1 records
+[2025-10-17 16:46:49] BillRecordRepository: Found bill - BIL-11
+[2025-10-17 16:46:49] BillRecordService: Print failed for bill 11 - COM3 (The system cannot find the file specified)
+[2025-10-17 16:46:49] BillRecordService: ✅ Bill auto-printed successfully - ID: 11
+[2025-10-17 16:46:49] BillController: Bill created successfully - Number: BIL-11
+[2025-10-17 16:50:19] BillController: Create bill request received
+[2025-10-17 16:50:19] BillRecordService: Creating new bill for customer - Ramesh Kumar
+[2025-10-17 16:50:19] BillRecordRepository: Creating new bill for Ramesh Kumar
+[2025-10-17 16:50:19] DaoCommon params: [Ramesh Kumar, 9876543210, 123 Main Street, Chennai, 1, 1, 2500.0, 5, 1, 1500.0, 100.0, 0.0, 200.0, CASH, 5000.0]
+[2025-10-17 16:50:19] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-17 16:50:19] DaoCommon Success: Returned 1 records
+[2025-10-17 16:50:19] BillRecordRepository: Bill created successfully
+[2025-10-17 16:50:19] BillRecordService: Attempting auto print for bill ID: 12
+[2025-10-17 16:50:19] DaoCommon params: [12]
+[2025-10-17 16:50:19] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-17 16:50:19] DaoCommon Success: Returned 1 records
+[2025-10-17 16:50:19] BillRecordRepository: Found bill - BIL-12
+[2025-10-17 16:50:19] BillRecordService: Print failed for bill 12 - COM3 (The system cannot find the file specified)
+[2025-10-17 16:50:19] BillRecordService: ✅ Bill auto-printed successfully - ID: 12
+[2025-10-17 16:50:19] BillController: Bill created successfully - Number: BIL-12
+[2025-10-17 16:50:32] BillController: Create bill request received
+[2025-10-17 16:50:32] BillRecordService: Creating new bill for customer - Ramesh Kumar
+[2025-10-17 16:50:32] BillRecordRepository: Creating new bill for Ramesh Kumar
+[2025-10-17 16:50:32] DaoCommon params: [Ramesh Kumar, 9876543210, 123 Main Street, Chennai, 1, 1, 2500.0, 5, 1, 1500.0, 100.0, 0.0, 200.0, CASH, 5000.0]
+[2025-10-17 16:50:32] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-17 16:50:32] DaoCommon Success: Returned 1 records
+[2025-10-17 16:50:32] BillRecordRepository: Bill created successfully
+[2025-10-17 16:50:32] BillRecordService: Attempting auto print for bill ID: 13
+[2025-10-17 16:50:32] DaoCommon params: [13]
+[2025-10-17 16:50:32] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-17 16:50:32] DaoCommon Success: Returned 1 records
+[2025-10-17 16:50:32] BillRecordRepository: Found bill - BIL-13
+[2025-10-17 16:50:37] BillRecordService: Bill printed successfully - ID: 13
+[2025-10-17 16:50:37] BillRecordService: ✅ Bill auto-printed successfully - ID: 13
+[2025-10-17 16:50:37] BillController: Bill created successfully - Number: BIL-13

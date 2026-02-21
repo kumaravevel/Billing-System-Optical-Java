@@ -1,0 +1,1100 @@
+[2025-10-18 10:21:00] BillController: Create bill request received
+[2025-10-18 10:21:00] BillRecordService: Creating new bill for customer - Ramesh Kumar
+[2025-10-18 10:21:00] BillRecordRepository: Creating new bill for Ramesh Kumar
+[2025-10-18 10:21:00] DaoCommon params: [Ramesh Kumar, 9876543210, 123 Main Street, Chennai, 1, 1, 2500.0, 5, 1, 1500.0, 100.0, 0.0, 200.0, CASH, 5000.0]
+[2025-10-18 10:21:00] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-18 10:21:00] DaoCommon Success: Returned 1 records
+[2025-10-18 10:21:00] BillRecordRepository: Bill created successfully
+[2025-10-18 10:21:00] BillRecordService: Attempting auto print for bill ID: 14
+[2025-10-18 10:21:00] DaoCommon params: [14]
+[2025-10-18 10:21:00] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-18 10:21:00] DaoCommon Success: Returned 1 records
+[2025-10-18 10:21:00] BillRecordRepository: Found bill - BIL-14
+[2025-10-18 10:21:05] BillRecordService: Bill printed successfully - ID: 14
+[2025-10-18 10:21:05] BillRecordService: ✅ Bill auto-printed successfully - ID: 14
+[2025-10-18 10:21:05] BillController: Bill created successfully - Number: BIL-14
+[2025-10-18 10:34:37] FrameController: POST Search request received - {search=wo}
+[2025-10-18 10:34:37] FrameService: Validating search term - wo
+[2025-10-18 10:34:37] FrameService: Calling repository to search frames
+[2025-10-18 10:34:37] FrameRepository: Searching frames with termwo
+[2025-10-18 10:34:37] DaoCommon params: [wo]
+[2025-10-18 10:34:37] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 10:34:37] DaoCommon Success: Returned 1 records
+[2025-10-18 10:34:37] FrameRepository: Search found 1 frames
+[2025-10-18 10:34:37] FrameController: POST Search successful, returning 1 frames
+[2025-10-18 10:35:12] LensController: POST Search request received - {search=bl}
+[2025-10-18 10:35:12] LensService: Validating search term - bl
+[2025-10-18 10:35:12] LensService: Calling repository to search lenses
+[2025-10-18 10:35:12] LensRepository: Searching lenses with term - bl
+[2025-10-18 10:35:12] DaoCommon params: [bl]
+[2025-10-18 10:35:12] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 10:35:12] DaoCommon Success: Returned 2 records
+[2025-10-18 10:35:12] LensRepository: Search found 2 lenses
+[2025-10-18 10:35:12] LensController: POST Search successful, returning 2 lenses
+[2025-10-18 10:35:29] BillController: Create bill request received
+[2025-10-18 10:35:29] BillRecordService: Creating new bill for customer - Ramesh Kumar
+[2025-10-18 10:35:29] BillRecordRepository: Creating new bill for Ramesh Kumar
+[2025-10-18 10:35:29] DaoCommon params: [Ramesh Kumar, 9876543210, 123 Main Street, Chennai, 1, 1, 2500.0, 5, 1, 1500.0, 100.0, 0.0, 200.0, CASH, 5000.0]
+[2025-10-18 10:35:29] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-18 10:35:29] DaoCommon Success: Returned 1 records
+[2025-10-18 10:35:29] BillRecordRepository: Bill created successfully
+[2025-10-18 10:35:29] BillRecordService: Attempting auto print for bill ID: 15
+[2025-10-18 10:35:29] DaoCommon params: [15]
+[2025-10-18 10:35:29] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-18 10:35:29] DaoCommon Success: Returned 1 records
+[2025-10-18 10:35:29] BillRecordRepository: Found bill - BIL-15
+[2025-10-18 10:35:35] BillRecordService: Bill printed successfully - ID: 15
+[2025-10-18 10:35:35] BillRecordService: ✅ Bill auto-printed successfully - ID: 15
+[2025-10-18 10:35:35] BillController: Bill created successfully - Number: BIL-15
+[2025-10-18 12:07:35] FrameController: POST Search request received - {search=wo}
+[2025-10-18 12:07:35] FrameService: Validating search term - wo
+[2025-10-18 12:07:35] FrameService: Calling repository to search frames
+[2025-10-18 12:07:36] FrameRepository: Searching frames with termwo
+[2025-10-18 12:07:36] DaoCommon params: [wo]
+[2025-10-18 12:07:36] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 12:07:36] DaoCommon Success: Returned 1 records
+[2025-10-18 12:07:36] FrameRepository: Search found 1 frames
+[2025-10-18 12:07:36] FrameController: POST Search successful, returning 1 frames
+[2025-10-18 12:08:02] FrameController: POST Search request received - {search=dd}
+[2025-10-18 12:08:02] FrameService: Validating search term - dd
+[2025-10-18 12:08:02] FrameService: Calling repository to search frames
+[2025-10-18 12:08:02] FrameRepository: Searching frames with termdd
+[2025-10-18 12:08:02] DaoCommon params: [dd]
+[2025-10-18 12:08:02] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 12:08:02] DaoCommon Success: Returned 0 records
+[2025-10-18 12:08:02] FrameRepository: Search found 0 frames
+[2025-10-18 12:08:02] FrameController: POST Search successful, returning 0 frames
+[2025-10-18 12:08:06] FrameController: POST Search request received - {search=wo}
+[2025-10-18 12:08:06] FrameService: Validating search term - wo
+[2025-10-18 12:08:06] FrameService: Calling repository to search frames
+[2025-10-18 12:08:06] FrameRepository: Searching frames with termwo
+[2025-10-18 12:08:06] DaoCommon params: [wo]
+[2025-10-18 12:08:06] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 12:08:06] DaoCommon Success: Returned 1 records
+[2025-10-18 12:08:06] FrameRepository: Search found 1 frames
+[2025-10-18 12:08:06] FrameController: POST Search successful, returning 1 frames
+[2025-10-18 12:08:11] LensController: POST Search request received - {search=bu}
+[2025-10-18 12:08:11] LensService: Validating search term - bu
+[2025-10-18 12:08:11] LensService: Calling repository to search lenses
+[2025-10-18 12:08:11] LensRepository: Searching lenses with term - bu
+[2025-10-18 12:08:11] DaoCommon params: [bu]
+[2025-10-18 12:08:11] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 12:08:11] DaoCommon Success: Returned 0 records
+[2025-10-18 12:08:11] LensRepository: Search found 0 lenses
+[2025-10-18 12:08:11] LensController: POST Search successful, returning 0 lenses
+[2025-10-18 12:08:20] LensController: POST Search request received - {search=bl}
+[2025-10-18 12:08:20] LensService: Validating search term - bl
+[2025-10-18 12:08:20] LensService: Calling repository to search lenses
+[2025-10-18 12:08:20] LensRepository: Searching lenses with term - bl
+[2025-10-18 12:08:20] DaoCommon params: [bl]
+[2025-10-18 12:08:20] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 12:08:20] DaoCommon Success: Returned 2 records
+[2025-10-18 12:08:20] LensRepository: Search found 2 lenses
+[2025-10-18 12:08:20] LensController: POST Search successful, returning 2 lenses
+[2025-10-18 12:08:43] BillController: Create bill request received
+[2025-10-18 12:08:43] BillRecordService: Creating new bill for customer - kumravekc
+[2025-10-18 12:08:43] BillRecordRepository: Creating new bill for kumravekc
+[2025-10-18 12:08:43] DaoCommon params: [kumravekc, 3232323, 23232, 1, 1, 500, 10, 1, 2200, 0, 0, 100, CASH, 500]
+[2025-10-18 12:08:43] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-18 12:08:43] DaoCommon Success: Returned 1 records
+[2025-10-18 12:08:43] BillRecordRepository: Bill created successfully
+[2025-10-18 12:08:43] BillRecordService: Attempting auto print for bill ID: 16
+[2025-10-18 12:08:43] DaoCommon params: [16]
+[2025-10-18 12:08:43] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-18 12:08:43] DaoCommon Success: Returned 1 records
+[2025-10-18 12:08:43] BillRecordRepository: Found bill - BIL-16
+[2025-10-18 12:08:48] BillRecordService: Bill printed successfully - ID: 16
+[2025-10-18 12:08:48] BillRecordService: ✅ Bill auto-printed successfully - ID: 16
+[2025-10-18 12:08:48] BillController: Bill created successfully - Number: BIL-16
+[2025-10-18 12:09:46] FrameController: POST Search request received - {search=wo}
+[2025-10-18 12:09:46] FrameService: Validating search term - wo
+[2025-10-18 12:09:46] FrameService: Calling repository to search frames
+[2025-10-18 12:09:46] FrameRepository: Searching frames with termwo
+[2025-10-18 12:09:46] DaoCommon params: [wo]
+[2025-10-18 12:09:46] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 12:09:46] DaoCommon Success: Returned 1 records
+[2025-10-18 12:09:46] FrameRepository: Search found 1 frames
+[2025-10-18 12:09:46] FrameController: POST Search successful, returning 1 frames
+[2025-10-18 12:09:47] FrameController: POST Search request received - {search=woo}
+[2025-10-18 12:09:47] FrameService: Validating search term - woo
+[2025-10-18 12:09:47] FrameService: Calling repository to search frames
+[2025-10-18 12:09:47] FrameRepository: Searching frames with termwoo
+[2025-10-18 12:09:47] DaoCommon params: [woo]
+[2025-10-18 12:09:47] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 12:09:47] DaoCommon Success: Returned 1 records
+[2025-10-18 12:09:47] FrameRepository: Search found 1 frames
+[2025-10-18 12:09:47] FrameController: POST Search successful, returning 1 frames
+[2025-10-18 12:09:52] LensController: POST Search request received - {search=bl}
+[2025-10-18 12:09:52] LensService: Validating search term - bl
+[2025-10-18 12:09:52] LensService: Calling repository to search lenses
+[2025-10-18 12:09:52] LensRepository: Searching lenses with term - bl
+[2025-10-18 12:09:52] DaoCommon params: [bl]
+[2025-10-18 12:09:52] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 12:09:52] DaoCommon Success: Returned 2 records
+[2025-10-18 12:09:52] LensRepository: Search found 2 lenses
+[2025-10-18 12:09:52] LensController: POST Search successful, returning 2 lenses
+[2025-10-18 12:13:41] FrameController: POST Search request received - {search=wo}
+[2025-10-18 12:13:41] FrameService: Validating search term - wo
+[2025-10-18 12:13:41] FrameService: Calling repository to search frames
+[2025-10-18 12:13:41] FrameRepository: Searching frames with termwo
+[2025-10-18 12:13:41] DaoCommon params: [wo]
+[2025-10-18 12:13:41] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 12:13:41] DaoCommon Success: Returned 1 records
+[2025-10-18 12:13:41] FrameRepository: Search found 1 frames
+[2025-10-18 12:13:41] FrameController: POST Search successful, returning 1 frames
+[2025-10-18 12:13:51] LensController: POST Search request received - {search=bi}
+[2025-10-18 12:13:51] LensService: Validating search term - bi
+[2025-10-18 12:13:51] LensService: Calling repository to search lenses
+[2025-10-18 12:13:51] LensRepository: Searching lenses with term - bi
+[2025-10-18 12:13:51] DaoCommon params: [bi]
+[2025-10-18 12:13:51] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 12:13:51] DaoCommon Success: Returned 2 records
+[2025-10-18 12:13:51] LensRepository: Search found 2 lenses
+[2025-10-18 12:13:51] LensController: POST Search successful, returning 2 lenses
+[2025-10-18 12:13:53] LensController: POST Search request received - {search=bl}
+[2025-10-18 12:13:53] LensService: Validating search term - bl
+[2025-10-18 12:13:53] LensService: Calling repository to search lenses
+[2025-10-18 12:13:53] LensRepository: Searching lenses with term - bl
+[2025-10-18 12:13:53] DaoCommon params: [bl]
+[2025-10-18 12:13:53] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 12:13:53] DaoCommon Success: Returned 2 records
+[2025-10-18 12:13:53] LensRepository: Search found 2 lenses
+[2025-10-18 12:13:53] LensController: POST Search successful, returning 2 lenses
+[2025-10-18 12:21:29] FrameController: POST Search request received - {search=wo}
+[2025-10-18 12:21:29] FrameService: Validating search term - wo
+[2025-10-18 12:21:29] FrameService: Calling repository to search frames
+[2025-10-18 12:21:29] FrameRepository: Searching frames with termwo
+[2025-10-18 12:21:29] DaoCommon params: [wo]
+[2025-10-18 12:21:29] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 12:21:29] DaoCommon Success: Returned 1 records
+[2025-10-18 12:21:29] FrameRepository: Search found 1 frames
+[2025-10-18 12:21:29] FrameController: POST Search successful, returning 1 frames
+[2025-10-18 12:30:13] FrameController: POST Search request received - {search=wo}
+[2025-10-18 12:30:13] FrameService: Validating search term - wo
+[2025-10-18 12:30:13] FrameService: Calling repository to search frames
+[2025-10-18 12:30:13] FrameRepository: Searching frames with termwo
+[2025-10-18 12:30:13] DaoCommon params: [wo]
+[2025-10-18 12:30:13] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 12:30:13] DaoCommon Success: Returned 1 records
+[2025-10-18 12:30:13] FrameRepository: Search found 1 frames
+[2025-10-18 12:30:13] FrameController: POST Search successful, returning 1 frames
+[2025-10-18 12:30:19] LensController: POST Search request received - {search=bl}
+[2025-10-18 12:30:19] LensService: Validating search term - bl
+[2025-10-18 12:30:19] LensService: Calling repository to search lenses
+[2025-10-18 12:30:19] LensRepository: Searching lenses with term - bl
+[2025-10-18 12:30:19] DaoCommon params: [bl]
+[2025-10-18 12:30:19] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 12:30:19] DaoCommon Success: Returned 2 records
+[2025-10-18 12:30:19] LensRepository: Search found 2 lenses
+[2025-10-18 12:30:19] LensController: POST Search successful, returning 2 lenses
+[2025-10-18 12:38:32] BillController: Create bill request received
+[2025-10-18 12:38:32] BillRecordService: Creating new bill for customer - kumaravel
+[2025-10-18 12:38:32] BillRecordRepository: Creating new bill for kumaravel
+[2025-10-18 12:38:32] DaoCommon params: [kumaravel, 2456, cece, 1, 1, 500, 10, 1, 2200, 0, 0, 0, CASH, 100]
+[2025-10-18 12:38:32] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-18 12:38:32] DaoCommon Success: Returned 1 records
+[2025-10-18 12:38:32] BillRecordRepository: Bill created successfully
+[2025-10-18 12:38:32] BillRecordService: Attempting auto print for bill ID: 17
+[2025-10-18 12:38:32] DaoCommon params: [17]
+[2025-10-18 12:38:32] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-18 12:38:32] DaoCommon Success: Returned 1 records
+[2025-10-18 12:38:32] BillRecordRepository: Found bill - BIL-17
+[2025-10-18 12:38:37] BillRecordService: Bill printed successfully - ID: 17
+[2025-10-18 12:38:37] BillRecordService: ✅ Bill auto-printed successfully - ID: 17
+[2025-10-18 12:38:37] BillController: Bill created successfully - Number: BIL-17
+[2025-10-18 12:38:51] FrameController: POST Search request received - {search=wo}
+[2025-10-18 12:38:51] FrameService: Validating search term - wo
+[2025-10-18 12:38:51] FrameService: Calling repository to search frames
+[2025-10-18 12:38:51] FrameRepository: Searching frames with termwo
+[2025-10-18 12:38:51] DaoCommon params: [wo]
+[2025-10-18 12:38:51] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 12:38:51] DaoCommon Success: Returned 1 records
+[2025-10-18 12:38:51] FrameRepository: Search found 1 frames
+[2025-10-18 12:38:51] FrameController: POST Search successful, returning 1 frames
+[2025-10-18 12:38:56] LensController: POST Search request received - {search=bl}
+[2025-10-18 12:38:56] LensService: Validating search term - bl
+[2025-10-18 12:38:56] LensService: Calling repository to search lenses
+[2025-10-18 12:38:56] LensRepository: Searching lenses with term - bl
+[2025-10-18 12:38:56] DaoCommon params: [bl]
+[2025-10-18 12:38:56] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 12:38:56] DaoCommon Success: Returned 2 records
+[2025-10-18 12:38:56] LensRepository: Search found 2 lenses
+[2025-10-18 12:38:56] LensController: POST Search successful, returning 2 lenses
+[2025-10-18 12:39:31] BillController: Create bill request received
+[2025-10-18 12:39:31] BillRecordService: Creating new bill for customer - kumaravel
+[2025-10-18 12:39:31] BillRecordRepository: Creating new bill for kumaravel
+[2025-10-18 12:39:31] DaoCommon params: [kumaravel, cece, cece, 1, 1, 500, 4, 1, 1800, 0, 0, 0, CASH, 0]
+[2025-10-18 12:39:31] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-18 12:39:31] DaoCommon Success: Returned 1 records
+[2025-10-18 12:39:31] BillRecordRepository: Bill created successfully
+[2025-10-18 12:39:31] BillRecordService: Attempting auto print for bill ID: 18
+[2025-10-18 12:39:31] DaoCommon params: [18]
+[2025-10-18 12:39:31] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-18 12:39:31] DaoCommon Success: Returned 1 records
+[2025-10-18 12:39:31] BillRecordRepository: Found bill - BIL-18
+[2025-10-18 12:39:35] BillRecordService: Bill printed successfully - ID: 18
+[2025-10-18 12:39:35] BillRecordService: ✅ Bill auto-printed successfully - ID: 18
+[2025-10-18 12:39:35] BillController: Bill created successfully - Number: BIL-18
+[2025-10-18 12:44:21] LensController: POST Search request received - {search=bl}
+[2025-10-18 12:44:21] LensService: Validating search term - bl
+[2025-10-18 12:44:21] LensService: Calling repository to search lenses
+[2025-10-18 12:44:21] LensRepository: Searching lenses with term - bl
+[2025-10-18 12:44:21] DaoCommon params: [bl]
+[2025-10-18 12:44:21] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 12:44:21] DaoCommon Success: Returned 2 records
+[2025-10-18 12:44:21] LensRepository: Search found 2 lenses
+[2025-10-18 12:44:21] LensController: POST Search successful, returning 2 lenses
+[2025-10-18 12:44:25] LensController: POST Search request received - {search=bl}
+[2025-10-18 12:44:25] LensService: Validating search term - bl
+[2025-10-18 12:44:25] LensService: Calling repository to search lenses
+[2025-10-18 12:44:25] LensRepository: Searching lenses with term - bl
+[2025-10-18 12:44:25] DaoCommon params: [bl]
+[2025-10-18 12:44:25] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 12:44:25] DaoCommon Success: Returned 2 records
+[2025-10-18 12:44:25] LensRepository: Search found 2 lenses
+[2025-10-18 12:44:25] LensController: POST Search successful, returning 2 lenses
+[2025-10-18 12:50:16] FrameController: POST Search request received - {search=wo}
+[2025-10-18 12:50:16] FrameService: Validating search term - wo
+[2025-10-18 12:50:16] FrameService: Calling repository to search frames
+[2025-10-18 12:50:16] FrameRepository: Searching frames with termwo
+[2025-10-18 12:50:16] DaoCommon params: [wo]
+[2025-10-18 12:50:16] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 12:50:16] DaoCommon Success: Returned 1 records
+[2025-10-18 12:50:16] FrameRepository: Search found 1 frames
+[2025-10-18 12:50:16] FrameController: POST Search successful, returning 1 frames
+[2025-10-18 12:50:39] LensController: POST Search request received - {search=bu}
+[2025-10-18 12:50:39] LensService: Validating search term - bu
+[2025-10-18 12:50:39] LensService: Calling repository to search lenses
+[2025-10-18 12:50:39] LensRepository: Searching lenses with term - bu
+[2025-10-18 12:50:39] DaoCommon params: [bu]
+[2025-10-18 12:50:39] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 12:50:39] DaoCommon Success: Returned 0 records
+[2025-10-18 12:50:39] LensRepository: Search found 0 lenses
+[2025-10-18 12:50:39] LensController: POST Search successful, returning 0 lenses
+[2025-10-18 12:50:41] LensController: POST Search request received - {search=bl}
+[2025-10-18 12:50:41] LensService: Validating search term - bl
+[2025-10-18 12:50:41] LensService: Calling repository to search lenses
+[2025-10-18 12:50:41] LensRepository: Searching lenses with term - bl
+[2025-10-18 12:50:41] DaoCommon params: [bl]
+[2025-10-18 12:50:41] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 12:50:41] DaoCommon Success: Returned 2 records
+[2025-10-18 12:50:41] LensRepository: Search found 2 lenses
+[2025-10-18 12:50:41] LensController: POST Search successful, returning 2 lenses
+[2025-10-18 13:34:57] FrameController: POST Search request received - {search=xw}
+[2025-10-18 13:34:57] FrameService: Validating search term - xw
+[2025-10-18 13:34:57] FrameService: Calling repository to search frames
+[2025-10-18 13:34:57] FrameRepository: Searching frames with termxw
+[2025-10-18 13:34:57] DaoCommon params: [xw]
+[2025-10-18 13:34:57] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 13:34:57] DaoCommon Success: Returned 0 records
+[2025-10-18 13:34:57] FrameRepository: Search found 0 frames
+[2025-10-18 13:34:57] FrameController: POST Search successful, returning 0 frames
+[2025-10-18 13:34:58] FrameController: POST Search request received - {search=xww}
+[2025-10-18 13:34:58] FrameService: Validating search term - xww
+[2025-10-18 13:34:58] FrameService: Calling repository to search frames
+[2025-10-18 13:34:58] FrameRepository: Searching frames with termxww
+[2025-10-18 13:34:58] DaoCommon params: [xww]
+[2025-10-18 13:34:58] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 13:34:58] DaoCommon Success: Returned 0 records
+[2025-10-18 13:34:58] FrameRepository: Search found 0 frames
+[2025-10-18 13:34:58] FrameController: POST Search successful, returning 0 frames
+[2025-10-18 13:34:58] FrameController: POST Search request received - {search=xwwx}
+[2025-10-18 13:34:58] FrameService: Validating search term - xwwx
+[2025-10-18 13:34:58] FrameService: Calling repository to search frames
+[2025-10-18 13:34:58] FrameRepository: Searching frames with termxwwx
+[2025-10-18 13:34:58] DaoCommon params: [xwwx]
+[2025-10-18 13:34:58] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 13:34:58] DaoCommon Success: Returned 0 records
+[2025-10-18 13:34:58] FrameRepository: Search found 0 frames
+[2025-10-18 13:34:58] FrameController: POST Search successful, returning 0 frames
+[2025-10-18 13:34:58] FrameController: POST Search request received - {search=xwwxw}
+[2025-10-18 13:34:58] FrameService: Validating search term - xwwxw
+[2025-10-18 13:34:58] FrameService: Calling repository to search frames
+[2025-10-18 13:34:58] FrameRepository: Searching frames with termxwwxw
+[2025-10-18 13:34:58] DaoCommon params: [xwwxw]
+[2025-10-18 13:34:58] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 13:34:58] DaoCommon Success: Returned 0 records
+[2025-10-18 13:34:58] FrameRepository: Search found 0 frames
+[2025-10-18 13:34:58] FrameController: POST Search successful, returning 0 frames
+[2025-10-18 13:35:02] FrameController: POST Search request received - {search=wo}
+[2025-10-18 13:35:02] FrameService: Validating search term - wo
+[2025-10-18 13:35:02] FrameService: Calling repository to search frames
+[2025-10-18 13:35:02] FrameRepository: Searching frames with termwo
+[2025-10-18 13:35:02] DaoCommon params: [wo]
+[2025-10-18 13:35:02] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 13:35:02] DaoCommon Success: Returned 1 records
+[2025-10-18 13:35:02] FrameRepository: Search found 1 frames
+[2025-10-18 13:35:02] FrameController: POST Search successful, returning 1 frames
+[2025-10-18 13:35:16] LensController: POST Search request received - {search=bl}
+[2025-10-18 13:35:16] LensService: Validating search term - bl
+[2025-10-18 13:35:16] LensService: Calling repository to search lenses
+[2025-10-18 13:35:16] LensRepository: Searching lenses with term - bl
+[2025-10-18 13:35:16] DaoCommon params: [bl]
+[2025-10-18 13:35:16] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 13:35:16] DaoCommon Success: Returned 2 records
+[2025-10-18 13:35:16] LensRepository: Search found 2 lenses
+[2025-10-18 13:35:16] LensController: POST Search successful, returning 2 lenses
+[2025-10-18 13:35:48] BillController: Create bill request received
+[2025-10-18 13:35:48] BillRecordService: Creating new bill for customer - wxwx
+[2025-10-18 13:35:48] BillRecordRepository: Creating new bill for wxwx
+[2025-10-18 13:35:48] DaoCommon params: [wxwx, xww, xwxw, 1, 1, 500, 10, 1, 2200, 0, 0, 0, CASH, 2000]
+[2025-10-18 13:35:48] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-18 13:35:48] DaoCommon Success: Returned 1 records
+[2025-10-18 13:35:48] BillRecordRepository: Bill created successfully
+[2025-10-18 13:35:48] BillRecordService: Attempting auto print for bill ID: 19
+[2025-10-18 13:35:48] DaoCommon params: [19]
+[2025-10-18 13:35:48] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-18 13:35:48] DaoCommon Success: Returned 1 records
+[2025-10-18 13:35:48] BillRecordRepository: Found bill - BIL-19
+[2025-10-18 13:35:53] BillRecordService: Bill printed successfully - ID: 19
+[2025-10-18 13:35:53] BillRecordService: ✅ Bill auto-printed successfully - ID: 19
+[2025-10-18 13:35:53] BillController: Bill created successfully - Number: BIL-19
+[2025-10-18 13:37:52] FrameController: POST Search request received - {search=wo}
+[2025-10-18 13:37:52] FrameService: Validating search term - wo
+[2025-10-18 13:37:52] FrameService: Calling repository to search frames
+[2025-10-18 13:37:52] FrameRepository: Searching frames with termwo
+[2025-10-18 13:37:52] DaoCommon params: [wo]
+[2025-10-18 13:37:52] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 13:37:52] DaoCommon Success: Returned 1 records
+[2025-10-18 13:37:52] FrameRepository: Search found 1 frames
+[2025-10-18 13:37:52] FrameController: POST Search successful, returning 1 frames
+[2025-10-18 13:38:03] LensController: POST Search request received - {search=bl}
+[2025-10-18 13:38:03] LensService: Validating search term - bl
+[2025-10-18 13:38:03] LensService: Calling repository to search lenses
+[2025-10-18 13:38:03] LensRepository: Searching lenses with term - bl
+[2025-10-18 13:38:03] DaoCommon params: [bl]
+[2025-10-18 13:38:03] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 13:38:03] DaoCommon Success: Returned 2 records
+[2025-10-18 13:38:03] LensRepository: Search found 2 lenses
+[2025-10-18 13:38:03] LensController: POST Search successful, returning 2 lenses
+[2025-10-18 13:39:47] BillController: Create bill request received
+[2025-10-18 13:39:47] BillRecordService: Creating new bill for customer - kuma
+[2025-10-18 13:39:47] BillRecordRepository: Creating new bill for kuma
+[2025-10-18 13:39:47] DaoCommon params: [kuma, 2345687, ssqsq, 1, 1, 500, 10, 1, 2200, 0, 0, 0, CASH, 500]
+[2025-10-18 13:39:47] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-18 13:39:47] DaoCommon Success: Returned 1 records
+[2025-10-18 13:39:47] BillRecordRepository: Bill created successfully
+[2025-10-18 13:39:47] BillRecordService: Attempting auto print for bill ID: 20
+[2025-10-18 13:39:47] DaoCommon params: [20]
+[2025-10-18 13:39:47] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-18 13:39:47] DaoCommon Success: Returned 1 records
+[2025-10-18 13:39:47] BillRecordRepository: Found bill - BIL-20
+[2025-10-18 13:39:51] BillRecordService: Bill printed successfully - ID: 20
+[2025-10-18 13:39:51] BillRecordService: ✅ Bill auto-printed successfully - ID: 20
+[2025-10-18 13:39:51] BillController: Bill created successfully - Number: BIL-20
+[2025-10-18 13:46:18] FrameController: POST Search request received - {search=wo}
+[2025-10-18 13:46:18] FrameService: Validating search term - wo
+[2025-10-18 13:46:18] FrameService: Calling repository to search frames
+[2025-10-18 13:46:18] FrameRepository: Searching frames with termwo
+[2025-10-18 13:46:18] DaoCommon params: [wo]
+[2025-10-18 13:46:18] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 13:46:19] DaoCommon Success: Returned 1 records
+[2025-10-18 13:46:19] FrameRepository: Search found 1 frames
+[2025-10-18 13:46:19] FrameController: POST Search successful, returning 1 frames
+[2025-10-18 13:49:54] FrameController: POST Search request received - {search=wo}
+[2025-10-18 13:49:54] FrameService: Validating search term - wo
+[2025-10-18 13:49:54] FrameService: Calling repository to search frames
+[2025-10-18 13:49:54] FrameRepository: Searching frames with termwo
+[2025-10-18 13:49:54] DaoCommon params: [wo]
+[2025-10-18 13:49:54] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 13:49:54] DaoCommon Success: Returned 1 records
+[2025-10-18 13:49:54] FrameRepository: Search found 1 frames
+[2025-10-18 13:49:54] FrameController: POST Search successful, returning 1 frames
+[2025-10-18 13:49:58] LensController: POST Search request received - {search=bl}
+[2025-10-18 13:49:58] LensService: Validating search term - bl
+[2025-10-18 13:49:58] LensService: Calling repository to search lenses
+[2025-10-18 13:49:58] LensRepository: Searching lenses with term - bl
+[2025-10-18 13:49:58] DaoCommon params: [bl]
+[2025-10-18 13:49:58] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 13:49:58] DaoCommon Success: Returned 2 records
+[2025-10-18 13:49:58] LensRepository: Search found 2 lenses
+[2025-10-18 13:49:58] LensController: POST Search successful, returning 2 lenses
+[2025-10-18 13:50:06] BillController: Create bill request received
+[2025-10-18 13:50:06] BillRecordService: Creating new bill for customer - dwqsw
+[2025-10-18 13:50:06] BillRecordRepository: Creating new bill for dwqsw
+[2025-10-18 13:50:06] DaoCommon params: [dwqsw, dwd, dwdw, 1, 1, 500, 10, 1, 2200, 0, 0, 0, CASH, 1000]
+[2025-10-18 13:50:06] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-18 13:50:06] DaoCommon Success: Returned 1 records
+[2025-10-18 13:50:06] BillRecordRepository: Bill created successfully
+[2025-10-18 13:50:06] BillRecordService: Attempting auto print for bill ID: 21
+[2025-10-18 13:50:06] DaoCommon params: [21]
+[2025-10-18 13:50:06] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-18 13:50:06] DaoCommon Success: Returned 1 records
+[2025-10-18 13:50:06] BillRecordRepository: Found bill - BIL-21
+[2025-10-18 13:50:11] BillRecordService: Bill printed successfully - ID: 21
+[2025-10-18 13:50:11] BillRecordService: ✅ Bill auto-printed successfully - ID: 21
+[2025-10-18 13:50:11] BillController: Bill created successfully - Number: BIL-21
+[2025-10-18 13:57:35] FrameController: POST Search request received - {search=wo}
+[2025-10-18 13:57:35] FrameService: Validating search term - wo
+[2025-10-18 13:57:35] FrameService: Calling repository to search frames
+[2025-10-18 13:57:35] FrameRepository: Searching frames with termwo
+[2025-10-18 13:57:35] DaoCommon params: [wo]
+[2025-10-18 13:57:35] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 13:57:35] DaoCommon Success: Returned 1 records
+[2025-10-18 13:57:35] FrameRepository: Search found 1 frames
+[2025-10-18 13:57:35] FrameController: POST Search successful, returning 1 frames
+[2025-10-18 13:57:40] LensController: POST Search request received - {search=bl}
+[2025-10-18 13:57:40] LensService: Validating search term - bl
+[2025-10-18 13:57:40] LensService: Calling repository to search lenses
+[2025-10-18 13:57:40] LensRepository: Searching lenses with term - bl
+[2025-10-18 13:57:40] DaoCommon params: [bl]
+[2025-10-18 13:57:40] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 13:57:40] DaoCommon Success: Returned 2 records
+[2025-10-18 13:57:40] LensRepository: Search found 2 lenses
+[2025-10-18 13:57:40] LensController: POST Search successful, returning 2 lenses
+[2025-10-18 13:57:58] BillController: Create bill request received
+[2025-10-18 13:57:58] BillRecordService: Creating new bill for customer - dwdd
+[2025-10-18 13:57:58] BillRecordRepository: Creating new bill for dwdd
+[2025-10-18 13:57:58] DaoCommon params: [dwdd, ddwdw, dwdw, 1, 2, 500, 10, 2, 2200, 0, 0, 0, CASH, 1000]
+[2025-10-18 13:57:58] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-18 13:57:58] DaoCommon Success: Returned 1 records
+[2025-10-18 13:57:58] BillRecordRepository: Bill created successfully
+[2025-10-18 13:57:58] BillRecordService: Attempting auto print for bill ID: 22
+[2025-10-18 13:57:58] DaoCommon params: [22]
+[2025-10-18 13:57:58] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-18 13:57:58] DaoCommon Success: Returned 1 records
+[2025-10-18 13:57:58] BillRecordRepository: Found bill - BIL-22
+[2025-10-18 13:58:03] BillRecordService: Bill printed successfully - ID: 22
+[2025-10-18 13:58:03] BillRecordService: ✅ Bill auto-printed successfully - ID: 22
+[2025-10-18 13:58:03] BillController: Bill created successfully - Number: BIL-22
+[2025-10-18 14:12:38] BillController: Create bill request received
+[2025-10-18 14:12:38] BillRecordService: Creating new bill for customer - Ramesh Kumar
+[2025-10-18 14:12:38] BillRecordRepository: Creating new bill for Ramesh Kumar
+[2025-10-18 14:12:38] DaoCommon params: [Ramesh Kumar, 9876543210, 123 Main Street, Chennai, 1, 1, 2500.0, 5, 1, 1500.0, 100.0, 0.0, 200.0, CASH, 5000.0]
+[2025-10-18 14:12:38] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-18 14:12:38] DaoCommon Success: Returned 1 records
+[2025-10-18 14:12:38] BillRecordRepository: Bill created successfully
+[2025-10-18 14:12:38] BillRecordService: Attempting auto print for bill ID: 23
+[2025-10-18 14:12:38] DaoCommon params: [23]
+[2025-10-18 14:12:38] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-18 14:12:38] DaoCommon Success: Returned 1 records
+[2025-10-18 14:12:38] BillRecordRepository: Found bill - BIL-23
+[2025-10-18 14:12:44] BillRecordService: Bill printed successfully - ID: 23
+[2025-10-18 14:12:44] BillRecordService: ✅ Bill auto-printed successfully - ID: 23
+[2025-10-18 14:12:44] BillController: Bill created successfully - Number: BIL-23
+[2025-10-18 14:15:22] FrameController: POST Search request received - {search=wo}
+[2025-10-18 14:15:22] FrameService: Validating search term - wo
+[2025-10-18 14:15:22] FrameService: Calling repository to search frames
+[2025-10-18 14:15:22] FrameRepository: Searching frames with termwo
+[2025-10-18 14:15:22] DaoCommon params: [wo]
+[2025-10-18 14:15:22] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 14:15:22] DaoCommon Success: Returned 1 records
+[2025-10-18 14:15:22] FrameRepository: Search found 1 frames
+[2025-10-18 14:15:22] FrameController: POST Search successful, returning 1 frames
+[2025-10-18 14:15:26] LensController: POST Search request received - {search=bl}
+[2025-10-18 14:15:26] LensService: Validating search term - bl
+[2025-10-18 14:15:26] LensService: Calling repository to search lenses
+[2025-10-18 14:15:26] LensRepository: Searching lenses with term - bl
+[2025-10-18 14:15:26] DaoCommon params: [bl]
+[2025-10-18 14:15:26] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 14:15:26] DaoCommon Success: Returned 2 records
+[2025-10-18 14:15:26] LensRepository: Search found 2 lenses
+[2025-10-18 14:15:26] LensController: POST Search successful, returning 2 lenses
+[2025-10-18 14:15:32] BillController: Create bill request received
+[2025-10-18 14:15:32] BillRecordService: Creating new bill for customer - ku
+[2025-10-18 14:15:32] BillRecordRepository: Creating new bill for ku
+[2025-10-18 14:15:32] DaoCommon params: [ku, f552455, ferfe, 1, 1, 500, 10, 1, 2200, 0, 0, 0, CASH, 1000]
+[2025-10-18 14:15:32] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-18 14:15:32] DaoCommon Success: Returned 1 records
+[2025-10-18 14:15:32] BillRecordRepository: Bill created successfully
+[2025-10-18 14:15:32] BillRecordService: Attempting auto print for bill ID: 24
+[2025-10-18 14:15:32] DaoCommon params: [24]
+[2025-10-18 14:15:32] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-18 14:15:32] DaoCommon Success: Returned 1 records
+[2025-10-18 14:15:32] BillRecordRepository: Found bill - BIL-24
+[2025-10-18 14:15:36] BillRecordService: Bill printed successfully - ID: 24
+[2025-10-18 14:15:36] BillRecordService: ✅ Bill auto-printed successfully - ID: 24
+[2025-10-18 14:15:36] BillController: Bill created successfully - Number: BIL-24
+[2025-10-18 14:17:04] FrameController: POST Search request received - {search=wo}
+[2025-10-18 14:17:04] FrameService: Validating search term - wo
+[2025-10-18 14:17:04] FrameService: Calling repository to search frames
+[2025-10-18 14:17:04] FrameRepository: Searching frames with termwo
+[2025-10-18 14:17:04] DaoCommon params: [wo]
+[2025-10-18 14:17:04] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 14:17:04] DaoCommon Success: Returned 1 records
+[2025-10-18 14:17:04] FrameRepository: Search found 1 frames
+[2025-10-18 14:17:04] FrameController: POST Search successful, returning 1 frames
+[2025-10-18 14:17:07] LensController: POST Search request received - {search=bl}
+[2025-10-18 14:17:07] LensService: Validating search term - bl
+[2025-10-18 14:17:07] LensService: Calling repository to search lenses
+[2025-10-18 14:17:07] LensRepository: Searching lenses with term - bl
+[2025-10-18 14:17:07] DaoCommon params: [bl]
+[2025-10-18 14:17:07] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 14:17:07] DaoCommon Success: Returned 2 records
+[2025-10-18 14:17:07] LensRepository: Search found 2 lenses
+[2025-10-18 14:17:07] LensController: POST Search successful, returning 2 lenses
+[2025-10-18 14:17:20] BillController: Create bill request received
+[2025-10-18 14:17:20] BillRecordService: Creating new bill for customer - kumaravel
+[2025-10-18 14:17:20] BillRecordRepository: Creating new bill for kumaravel
+[2025-10-18 14:17:20] DaoCommon params: [kumaravel, 8248225846, dededwedwe, 1, 1, 500, 10, 1, 2200, 0, 0, 0, CASH, 1000]
+[2025-10-18 14:17:20] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-18 14:17:20] DaoCommon Success: Returned 1 records
+[2025-10-18 14:17:20] BillRecordRepository: Bill created successfully
+[2025-10-18 14:17:20] BillRecordService: Attempting auto print for bill ID: 25
+[2025-10-18 14:17:20] DaoCommon params: [25]
+[2025-10-18 14:17:20] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-18 14:17:20] DaoCommon Success: Returned 1 records
+[2025-10-18 14:17:20] BillRecordRepository: Found bill - BIL-25
+[2025-10-18 14:17:24] BillRecordService: Bill printed successfully - ID: 25
+[2025-10-18 14:17:24] BillRecordService: ✅ Bill auto-printed successfully - ID: 25
+[2025-10-18 14:17:24] BillController: Bill created successfully - Number: BIL-25
+[2025-10-18 14:17:44] FrameController: POST Search request received - {search=wo}
+[2025-10-18 14:17:44] FrameService: Validating search term - wo
+[2025-10-18 14:17:44] FrameService: Calling repository to search frames
+[2025-10-18 14:17:44] FrameRepository: Searching frames with termwo
+[2025-10-18 14:17:44] DaoCommon params: [wo]
+[2025-10-18 14:17:44] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 14:17:44] DaoCommon Success: Returned 1 records
+[2025-10-18 14:17:44] FrameRepository: Search found 1 frames
+[2025-10-18 14:17:44] FrameController: POST Search successful, returning 1 frames
+[2025-10-18 14:17:49] LensController: POST Search request received - {search=bl}
+[2025-10-18 14:17:49] LensService: Validating search term - bl
+[2025-10-18 14:17:49] LensService: Calling repository to search lenses
+[2025-10-18 14:17:49] LensRepository: Searching lenses with term - bl
+[2025-10-18 14:17:49] DaoCommon params: [bl]
+[2025-10-18 14:17:49] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 14:17:49] DaoCommon Success: Returned 2 records
+[2025-10-18 14:17:49] LensRepository: Search found 2 lenses
+[2025-10-18 14:17:49] LensController: POST Search successful, returning 2 lenses
+[2025-10-18 14:17:59] BillController: Create bill request received
+[2025-10-18 14:17:59] BillRecordService: Creating new bill for customer - balaji
+[2025-10-18 14:17:59] BillRecordRepository: Creating new bill for balaji
+[2025-10-18 14:17:59] DaoCommon params: [balaji, kumaran, swswswsw, 1, 1, 500, 10, 1, 2200, 0, 0, 100, CASH, 500]
+[2025-10-18 14:17:59] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-18 14:17:59] DaoCommon Success: Returned 1 records
+[2025-10-18 14:17:59] BillRecordRepository: Bill created successfully
+[2025-10-18 14:17:59] BillRecordService: Attempting auto print for bill ID: 26
+[2025-10-18 14:17:59] DaoCommon params: [26]
+[2025-10-18 14:17:59] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-18 14:17:59] DaoCommon Success: Returned 1 records
+[2025-10-18 14:17:59] BillRecordRepository: Found bill - BIL-26
+[2025-10-18 14:18:04] BillRecordService: Bill printed successfully - ID: 26
+[2025-10-18 14:18:04] BillRecordService: ✅ Bill auto-printed successfully - ID: 26
+[2025-10-18 14:18:04] BillController: Bill created successfully - Number: BIL-26
+[2025-10-18 14:20:00] BillController: Create bill request received
+[2025-10-18 14:20:00] BillRecordService: Creating new bill for customer - Ramesh Kumar
+[2025-10-18 14:20:00] BillRecordRepository: Creating new bill for Ramesh Kumar
+[2025-10-18 14:20:00] DaoCommon params: [Ramesh Kumar, 9876543210, 123 Main Street, Chennai, 1, 1, 2500.0, 5, 1, 1500.0, 100.0, 0.0, 200.0, CASH, 5000.0]
+[2025-10-18 14:20:00] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-18 14:20:00] DaoCommon Success: Returned 1 records
+[2025-10-18 14:20:00] BillRecordRepository: Bill created successfully
+[2025-10-18 14:20:00] BillRecordService: Attempting auto print for bill ID: 27
+[2025-10-18 14:20:00] DaoCommon params: [27]
+[2025-10-18 14:20:00] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-18 14:20:00] DaoCommon Success: Returned 1 records
+[2025-10-18 14:20:00] BillRecordRepository: Found bill - BIL-27
+[2025-10-18 14:20:06] BillRecordService: Bill printed successfully - ID: 27
+[2025-10-18 14:20:06] BillRecordService: ✅ Bill auto-printed successfully - ID: 27
+[2025-10-18 14:20:06] BillController: Bill created successfully - Number: BIL-27
+[2025-10-18 14:27:56] FrameController: POST Search request received - {search=wo}
+[2025-10-18 14:27:56] FrameService: Validating search term - wo
+[2025-10-18 14:27:56] FrameService: Calling repository to search frames
+[2025-10-18 14:27:56] FrameRepository: Searching frames with termwo
+[2025-10-18 14:27:56] DaoCommon params: [wo]
+[2025-10-18 14:27:56] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 14:27:56] DaoCommon Success: Returned 1 records
+[2025-10-18 14:27:56] FrameRepository: Search found 1 frames
+[2025-10-18 14:27:56] FrameController: POST Search successful, returning 1 frames
+[2025-10-18 14:28:00] LensController: POST Search request received - {search=bl}
+[2025-10-18 14:28:00] LensService: Validating search term - bl
+[2025-10-18 14:28:00] LensService: Calling repository to search lenses
+[2025-10-18 14:28:00] LensRepository: Searching lenses with term - bl
+[2025-10-18 14:28:00] DaoCommon params: [bl]
+[2025-10-18 14:28:00] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 14:28:00] DaoCommon Success: Returned 2 records
+[2025-10-18 14:28:00] LensRepository: Search found 2 lenses
+[2025-10-18 14:28:00] LensController: POST Search successful, returning 2 lenses
+[2025-10-18 14:28:07] BillController: Create bill request received
+[2025-10-18 14:28:07] BillRecordService: Creating new bill for customer - kum
+[2025-10-18 14:28:07] BillRecordRepository: Creating new bill for kum
+[2025-10-18 14:28:07] DaoCommon params: [kum, bal, frfr, 1, 1, 500, 4, 1, 1800, 0, 0, 0, CASH, 1000]
+[2025-10-18 14:28:07] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-18 14:28:07] DaoCommon Success: Returned 1 records
+[2025-10-18 14:28:07] BillRecordRepository: Bill created successfully
+[2025-10-18 14:28:07] BillRecordService: Attempting auto print for bill ID: 28
+[2025-10-18 14:28:07] DaoCommon params: [28]
+[2025-10-18 14:28:07] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-18 14:28:07] DaoCommon Success: Returned 1 records
+[2025-10-18 14:28:07] BillRecordRepository: Found bill - BIL-28
+[2025-10-18 14:28:12] BillRecordService: Bill printed successfully - ID: 28
+[2025-10-18 14:28:12] BillRecordService: ✅ Bill auto-printed successfully - ID: 28
+[2025-10-18 14:28:12] BillController: Bill created successfully - Number: BIL-28
+[2025-10-18 14:29:27] FrameController: POST Search request received - {search=wo}
+[2025-10-18 14:29:27] FrameService: Validating search term - wo
+[2025-10-18 14:29:27] FrameService: Calling repository to search frames
+[2025-10-18 14:29:27] FrameRepository: Searching frames with termwo
+[2025-10-18 14:29:27] DaoCommon params: [wo]
+[2025-10-18 14:29:27] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 14:29:27] DaoCommon Success: Returned 1 records
+[2025-10-18 14:29:27] FrameRepository: Search found 1 frames
+[2025-10-18 14:29:27] FrameController: POST Search successful, returning 1 frames
+[2025-10-18 14:29:30] LensController: POST Search request received - {search=bl}
+[2025-10-18 14:29:30] LensService: Validating search term - bl
+[2025-10-18 14:29:30] LensService: Calling repository to search lenses
+[2025-10-18 14:29:30] LensRepository: Searching lenses with term - bl
+[2025-10-18 14:29:30] DaoCommon params: [bl]
+[2025-10-18 14:29:30] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 14:29:30] DaoCommon Success: Returned 2 records
+[2025-10-18 14:29:30] LensRepository: Search found 2 lenses
+[2025-10-18 14:29:30] LensController: POST Search successful, returning 2 lenses
+[2025-10-18 14:29:32] BillController: Create bill request received
+[2025-10-18 14:29:32] BillRecordService: Creating new bill for customer - dw
+[2025-10-18 14:29:32] BillRecordRepository: Creating new bill for dw
+[2025-10-18 14:29:32] DaoCommon params: [dw, dwd, dwdw, 1, 1, 500, 10, 1, 2200, 0, 0, 0, CASH, 0]
+[2025-10-18 14:29:32] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-18 14:29:32] DaoCommon Success: Returned 1 records
+[2025-10-18 14:29:32] BillRecordRepository: Bill created successfully
+[2025-10-18 14:29:32] BillRecordService: Attempting auto print for bill ID: 29
+[2025-10-18 14:29:32] DaoCommon params: [29]
+[2025-10-18 14:29:32] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-18 14:29:32] DaoCommon Success: Returned 1 records
+[2025-10-18 14:29:32] BillRecordRepository: Found bill - BIL-29
+[2025-10-18 14:29:37] BillRecordService: Bill printed successfully - ID: 29
+[2025-10-18 14:29:37] BillRecordService: ✅ Bill auto-printed successfully - ID: 29
+[2025-10-18 14:29:37] BillController: Bill created successfully - Number: BIL-29
+[2025-10-18 14:32:56] FrameController: POST Search request received - {search=dw}
+[2025-10-18 14:32:56] FrameService: Validating search term - dw
+[2025-10-18 14:32:56] FrameService: Calling repository to search frames
+[2025-10-18 14:32:56] FrameRepository: Searching frames with termdw
+[2025-10-18 14:32:56] DaoCommon params: [dw]
+[2025-10-18 14:32:56] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 14:32:56] DaoCommon Success: Returned 0 records
+[2025-10-18 14:32:56] FrameRepository: Search found 0 frames
+[2025-10-18 14:32:56] FrameController: POST Search successful, returning 0 frames
+[2025-10-18 14:32:58] FrameController: POST Search request received - {search=wo}
+[2025-10-18 14:32:58] FrameService: Validating search term - wo
+[2025-10-18 14:32:58] FrameService: Calling repository to search frames
+[2025-10-18 14:32:58] FrameRepository: Searching frames with termwo
+[2025-10-18 14:32:58] DaoCommon params: [wo]
+[2025-10-18 14:32:58] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 14:32:58] DaoCommon Success: Returned 1 records
+[2025-10-18 14:32:58] FrameRepository: Search found 1 frames
+[2025-10-18 14:32:58] FrameController: POST Search successful, returning 1 frames
+[2025-10-18 14:33:01] LensController: POST Search request received - {search=bl}
+[2025-10-18 14:33:01] LensService: Validating search term - bl
+[2025-10-18 14:33:01] LensService: Calling repository to search lenses
+[2025-10-18 14:33:01] LensRepository: Searching lenses with term - bl
+[2025-10-18 14:33:01] DaoCommon params: [bl]
+[2025-10-18 14:33:01] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 14:33:01] DaoCommon Success: Returned 2 records
+[2025-10-18 14:33:01] LensRepository: Search found 2 lenses
+[2025-10-18 14:33:01] LensController: POST Search successful, returning 2 lenses
+[2025-10-18 14:33:04] BillController: Create bill request received
+[2025-10-18 14:33:04] BillRecordService: Creating new bill for customer - dwdw
+[2025-10-18 14:33:04] BillRecordRepository: Creating new bill for dwdw
+[2025-10-18 14:33:04] DaoCommon params: [dwdw, dwdw, dwdw, 1, 1, 500, 10, 1, 2200, 0, 0, 0, CASH, 0]
+[2025-10-18 14:33:04] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-18 14:33:05] DaoCommon Success: Returned 1 records
+[2025-10-18 14:33:05] BillRecordRepository: Bill created successfully
+[2025-10-18 14:33:05] BillRecordService: Attempting auto print for bill ID: 30
+[2025-10-18 14:33:05] DaoCommon params: [30]
+[2025-10-18 14:33:05] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-18 14:33:05] DaoCommon Success: Returned 1 records
+[2025-10-18 14:33:05] BillRecordRepository: Found bill - BIL-30
+[2025-10-18 14:33:09] BillRecordService: Bill printed successfully - ID: 30
+[2025-10-18 14:33:09] BillRecordService: ✅ Bill auto-printed successfully - ID: 30
+[2025-10-18 14:33:09] BillController: Bill created successfully - Number: BIL-30
+[2025-10-18 14:41:07] BillController: Create bill request received
+[2025-10-18 14:41:07] BillRecordService: Creating new bill for customer - Ramesh Kumar
+[2025-10-18 14:41:07] BillRecordRepository: Creating new bill for Ramesh Kumar
+[2025-10-18 14:41:07] DaoCommon params: [Ramesh Kumar, 9876543210, 123 Main Street, Chennai, 1, 1, 2500.0, 5, 1, 1500.0, 100.0, 0.0, 200.0, CASH, 5000.0]
+[2025-10-18 14:41:07] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-18 14:41:07] DaoCommon Error: PreparedStatementCallback; bad SQL grammar [CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)]
+[2025-10-18 14:41:07] BillRecordRepository: Error creating bill - Error executing stored procedure: PreparedStatementCallback; bad SQL grammar [CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)]
+[2025-10-18 14:41:07] BillController: Create bill failed - Error creating bill: Error executing stored procedure: PreparedStatementCallback; bad SQL grammar [CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?)]
+[2025-10-18 14:45:30] BillController: Create bill request received
+[2025-10-18 14:45:30] BillRecordService: Creating new bill for customer - Ramesh Kumar
+[2025-10-18 14:45:30] BillRecordRepository: Creating new bill for Ramesh Kumar
+[2025-10-18 14:45:30] DaoCommon params: [Ramesh Kumar, 9876543210, 123 Main Street, Chennai, 0, 1, 1, 2500.0, 5, 1, 1500.0, 100.0, 0.0, 200.0, CASH, 5000.0]
+[2025-10-18 14:45:30] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-18 14:45:30] DaoCommon Success: Returned 1 records
+[2025-10-18 14:45:30] BillRecordRepository: Bill created successfully
+[2025-10-18 14:45:30] BillRecordService: Attempting auto print for bill ID: 32
+[2025-10-18 14:45:30] DaoCommon params: [32]
+[2025-10-18 14:45:30] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-18 14:45:30] DaoCommon Success: Returned 1 records
+[2025-10-18 14:45:30] BillRecordRepository: Found bill - BIL-32
+[2025-10-18 14:45:35] BillRecordService: Bill printed successfully - ID: 32
+[2025-10-18 14:45:35] BillRecordService:  Bill auto-printed successfully - ID: 32
+[2025-10-18 14:45:35] BillController: Bill created successfully - Number: BIL-32
+[2025-10-18 14:46:43] BillController: Create bill request received
+[2025-10-18 14:46:43] BillRecordService: Creating new bill for customer - Ramesh Kumar
+[2025-10-18 14:46:43] BillRecordRepository: Creating new bill for Ramesh Kumar
+[2025-10-18 14:46:43] DaoCommon params: [Ramesh Kumar, 9876543210, 123 Main Street, Chennai, 35, 1, 1, 2500.0, 5, 1, 1500.0, 100.0, 0.0, 200.0, CASH, 3000.0]
+[2025-10-18 14:46:43] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-18 14:46:43] DaoCommon Success: Returned 1 records
+[2025-10-18 14:46:43] BillRecordRepository: Bill created successfully
+[2025-10-18 14:46:43] BillRecordService: Attempting auto print for bill ID: 33
+[2025-10-18 14:46:43] DaoCommon params: [33]
+[2025-10-18 14:46:43] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-18 14:46:43] DaoCommon Success: Returned 1 records
+[2025-10-18 14:46:43] BillRecordRepository: Found bill - BIL-33
+[2025-10-18 14:46:48] BillRecordService: Bill printed successfully - ID: 33
+[2025-10-18 14:46:48] BillRecordService:  Bill auto-printed successfully - ID: 33
+[2025-10-18 14:46:48] BillController: Bill created successfully - Number: BIL-33
+[2025-10-18 14:50:05] FrameController: POST Search request received - {search=wo}
+[2025-10-18 14:50:05] FrameService: Validating search term - wo
+[2025-10-18 14:50:05] FrameService: Calling repository to search frames
+[2025-10-18 14:50:05] FrameRepository: Searching frames with termwo
+[2025-10-18 14:50:05] DaoCommon params: [wo]
+[2025-10-18 14:50:05] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 14:50:05] DaoCommon Success: Returned 1 records
+[2025-10-18 14:50:05] FrameRepository: Search found 1 frames
+[2025-10-18 14:50:05] FrameController: POST Search successful, returning 1 frames
+[2025-10-18 14:50:08] LensController: POST Search request received - {search=bu}
+[2025-10-18 14:50:08] LensService: Validating search term - bu
+[2025-10-18 14:50:08] LensService: Calling repository to search lenses
+[2025-10-18 14:50:08] LensRepository: Searching lenses with term - bu
+[2025-10-18 14:50:08] DaoCommon params: [bu]
+[2025-10-18 14:50:08] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 14:50:08] DaoCommon Success: Returned 0 records
+[2025-10-18 14:50:08] LensRepository: Search found 0 lenses
+[2025-10-18 14:50:08] LensController: POST Search successful, returning 0 lenses
+[2025-10-18 14:50:10] LensController: POST Search request received - {search=bul}
+[2025-10-18 14:50:10] LensService: Validating search term - bul
+[2025-10-18 14:50:10] LensService: Calling repository to search lenses
+[2025-10-18 14:50:10] LensRepository: Searching lenses with term - bul
+[2025-10-18 14:50:10] DaoCommon params: [bul]
+[2025-10-18 14:50:10] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 14:50:10] DaoCommon Success: Returned 0 records
+[2025-10-18 14:50:10] LensRepository: Search found 0 lenses
+[2025-10-18 14:50:10] LensController: POST Search successful, returning 0 lenses
+[2025-10-18 14:50:12] LensController: POST Search request received - {search=bu}
+[2025-10-18 14:50:12] LensService: Validating search term - bu
+[2025-10-18 14:50:12] LensService: Calling repository to search lenses
+[2025-10-18 14:50:12] LensRepository: Searching lenses with term - bu
+[2025-10-18 14:50:12] DaoCommon params: [bu]
+[2025-10-18 14:50:12] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 14:50:12] DaoCommon Success: Returned 0 records
+[2025-10-18 14:50:12] LensRepository: Search found 0 lenses
+[2025-10-18 14:50:12] LensController: POST Search successful, returning 0 lenses
+[2025-10-18 14:50:12] LensController: POST Search request received - {search=bl}
+[2025-10-18 14:50:12] LensService: Validating search term - bl
+[2025-10-18 14:50:12] LensService: Calling repository to search lenses
+[2025-10-18 14:50:12] LensRepository: Searching lenses with term - bl
+[2025-10-18 14:50:12] DaoCommon params: [bl]
+[2025-10-18 14:50:12] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 14:50:12] DaoCommon Success: Returned 2 records
+[2025-10-18 14:50:12] LensRepository: Search found 2 lenses
+[2025-10-18 14:50:12] LensController: POST Search successful, returning 2 lenses
+[2025-10-18 14:56:01] BillController: Create bill request received
+[2025-10-18 14:56:01] BillRecordService: Creating new bill for customer - Ramesh Kumar
+[2025-10-18 14:56:01] BillRecordRepository: Creating new bill for Ramesh Kumar
+[2025-10-18 14:56:01] DaoCommon params: [Ramesh Kumar, 9876543210, 123 Main Street, Chennai, 35, 1, 1, 2500.0, 5, 1, 1500.0, 100.0, 0.0, 200.0, CASH, 3000.0]
+[2025-10-18 14:56:01] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-18 14:56:01] DaoCommon Success: Returned 1 records
+[2025-10-18 14:56:01] BillRecordRepository: Bill created successfully
+[2025-10-18 14:56:01] BillRecordService: Attempting auto print for bill ID: 34
+[2025-10-18 14:56:01] DaoCommon params: [34]
+[2025-10-18 14:56:01] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-18 14:56:01] DaoCommon Success: Returned 1 records
+[2025-10-18 14:56:01] BillRecordRepository: Found bill - BIL-34
+[2025-10-18 14:56:07] BillRecordService: Bill printed successfully - ID: 34
+[2025-10-18 14:56:07] BillRecordService:  Bill auto-printed successfully - ID: 34
+[2025-10-18 14:56:07] BillController: Bill created successfully - Number: BIL-34
+[2025-10-18 15:03:40] FrameController: POST Search request received - {search=wo}
+[2025-10-18 15:03:40] FrameService: Validating search term - wo
+[2025-10-18 15:03:40] FrameService: Calling repository to search frames
+[2025-10-18 15:03:40] FrameRepository: Searching frames with termwo
+[2025-10-18 15:03:40] DaoCommon params: [wo]
+[2025-10-18 15:03:40] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 15:03:40] DaoCommon Success: Returned 1 records
+[2025-10-18 15:03:40] FrameRepository: Search found 1 frames
+[2025-10-18 15:03:40] FrameController: POST Search successful, returning 1 frames
+[2025-10-18 15:03:45] LensController: POST Search request received - {search=bl}
+[2025-10-18 15:03:45] LensService: Validating search term - bl
+[2025-10-18 15:03:45] LensService: Calling repository to search lenses
+[2025-10-18 15:03:45] LensRepository: Searching lenses with term - bl
+[2025-10-18 15:03:45] DaoCommon params: [bl]
+[2025-10-18 15:03:45] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 15:03:45] DaoCommon Success: Returned 2 records
+[2025-10-18 15:03:45] LensRepository: Search found 2 lenses
+[2025-10-18 15:03:45] LensController: POST Search successful, returning 2 lenses
+[2025-10-18 15:04:38] BillController: Create bill request received
+[2025-10-18 15:04:38] BillRecordService: Creating new bill for customer - kumarvel
+[2025-10-18 15:04:38] BillRecordRepository: Creating new bill for kumarvel
+[2025-10-18 15:04:38] DaoCommon params: [kumarvel, 8248225846, efewfw, 25, 1, 1, 500, 10, 1, 2200, 0, 0, 100, CASH, 100]
+[2025-10-18 15:04:38] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-18 15:04:38] DaoCommon Success: Returned 1 records
+[2025-10-18 15:04:38] BillRecordRepository: Bill created successfully
+[2025-10-18 15:04:38] BillRecordService: Attempting auto print for bill ID: 35
+[2025-10-18 15:04:38] DaoCommon params: [35]
+[2025-10-18 15:04:38] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-18 15:04:38] DaoCommon Success: Returned 1 records
+[2025-10-18 15:04:38] BillRecordRepository: Found bill - BIL-35
+[2025-10-18 15:04:43] BillRecordService: Bill printed successfully - ID: 35
+[2025-10-18 15:04:43] BillRecordService:  Bill auto-printed successfully - ID: 35
+[2025-10-18 15:04:43] BillController: Bill created successfully - Number: BIL-35
+[2025-10-18 15:18:48] BillController: Create bill request received
+[2025-10-18 15:18:48] BillRecordService: Creating new bill for customer - Ramesh Kumar
+[2025-10-18 15:18:48] BillRecordRepository: Creating new bill for Ramesh Kumar
+[2025-10-18 15:18:48] DaoCommon params: [Ramesh Kumar, 9876543210, 123 Main Street, Chennai, 35, 1, 1, 2500.0, 5, 1, 1500.0, 100.0, 0.0, 200.0, CASH, 3000.0]
+[2025-10-18 15:18:48] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-18 15:18:48] DaoCommon Success: Returned 1 records
+[2025-10-18 15:18:48] BillRecordRepository: Bill created successfully
+[2025-10-18 15:18:48] BillRecordService: Attempting auto print for bill ID: 36
+[2025-10-18 15:18:48] DaoCommon params: [36]
+[2025-10-18 15:18:48] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-18 15:18:48] DaoCommon Success: Returned 1 records
+[2025-10-18 15:18:48] BillRecordRepository: Found bill - BIL-36
+[2025-10-18 15:18:48] BillRecordService: Starting Java Print Service for bill: 36
+[2025-10-18 15:18:48] BillRecordService: Found 6 printers
+[2025-10-18 15:18:48] BillRecordService: Available Printer: Send To OneNote 2013
+[2025-10-18 15:18:48] BillRecordService: Available Printer: OneNote for Windows 10
+[2025-10-18 15:18:48] BillRecordService: Available Printer: OneNote (Desktop)
+[2025-10-18 15:18:48] BillRecordService: Available Printer: Microsoft XPS Document Writer
+[2025-10-18 15:18:48] BillRecordService: Available Printer: Microsoft Print to PDF
+[2025-10-18 15:18:48] BillRecordService: Available Printer: Fax
+[2025-10-18 15:18:48] BillRecordService: No HP printer found, using default printer
+[2025-10-18 15:18:48] BillRecordService: Selected Printer: Microsoft Print to PDF
+[2025-10-18 15:18:48] BillRecordService: Sending print job to printer...
+[2025-10-18 15:18:49] BillRecordService: Print job submitted successfully for bill: 36
+[2025-10-18 15:18:49] BillRecordService:  Bill auto-printed successfully - ID: 36
+[2025-10-18 15:18:49] BillController: Bill created successfully - Number: BIL-36
+[2025-10-18 15:29:14] FrameController: POST Search request received - {search=wo}
+[2025-10-18 15:29:14] FrameService: Validating search term - wo
+[2025-10-18 15:29:14] FrameService: Calling repository to search frames
+[2025-10-18 15:29:14] FrameRepository: Searching frames with termwo
+[2025-10-18 15:29:14] DaoCommon params: [wo]
+[2025-10-18 15:29:14] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 15:29:14] DaoCommon Success: Returned 1 records
+[2025-10-18 15:29:14] FrameRepository: Search found 1 frames
+[2025-10-18 15:29:14] FrameController: POST Search successful, returning 1 frames
+[2025-10-18 15:29:20] LensController: POST Search request received - {search=bl}
+[2025-10-18 15:29:20] LensService: Validating search term - bl
+[2025-10-18 15:29:20] LensService: Calling repository to search lenses
+[2025-10-18 15:29:20] LensRepository: Searching lenses with term - bl
+[2025-10-18 15:29:20] DaoCommon params: [bl]
+[2025-10-18 15:29:20] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 15:29:20] DaoCommon Success: Returned 2 records
+[2025-10-18 15:29:20] LensRepository: Search found 2 lenses
+[2025-10-18 15:29:20] LensController: POST Search successful, returning 2 lenses
+[2025-10-18 15:30:03] BillController: Create bill request received
+[2025-10-18 15:30:03] BillRecordService: Creating new bill for customer - kumaravel
+[2025-10-18 15:30:03] BillRecordRepository: Creating new bill for kumaravel
+[2025-10-18 15:30:03] DaoCommon params: [kumaravel, 8248225846, chennai, 25, 1, 1, 500, 10, 1, 2200, 0, 0, 100, CASH, 500]
+[2025-10-18 15:30:03] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-18 15:30:03] DaoCommon Success: Returned 1 records
+[2025-10-18 15:30:03] BillRecordRepository: Bill created successfully
+[2025-10-18 15:30:03] BillRecordService: Attempting auto print for bill ID: 37
+[2025-10-18 15:30:03] DaoCommon params: [37]
+[2025-10-18 15:30:03] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-18 15:30:03] DaoCommon Success: Returned 1 records
+[2025-10-18 15:30:03] BillRecordRepository: Found bill - BIL-37
+[2025-10-18 15:30:03] BillRecordService: Starting Java Print Service for bill: 37
+[2025-10-18 15:30:03] BillRecordService: Found 6 printers
+[2025-10-18 15:30:03] BillRecordService: Available Printer: Send To OneNote 2013
+[2025-10-18 15:30:03] BillRecordService: Available Printer: OneNote for Windows 10
+[2025-10-18 15:30:03] BillRecordService: Available Printer: OneNote (Desktop)
+[2025-10-18 15:30:03] BillRecordService: Available Printer: Microsoft XPS Document Writer
+[2025-10-18 15:30:03] BillRecordService: Available Printer: Microsoft Print to PDF
+[2025-10-18 15:30:03] BillRecordService: Available Printer: Fax
+[2025-10-18 15:30:03] BillRecordService: No HP printer found, using default printer
+[2025-10-18 15:30:03] BillRecordService: Selected Printer: Microsoft Print to PDF
+[2025-10-18 15:30:03] BillRecordService: Sending print job to printer...
+[2025-10-18 15:30:03] BillRecordService: Print job submitted successfully for bill: 37
+[2025-10-18 15:30:03] BillRecordService:  Bill auto-printed successfully - ID: 37
+[2025-10-18 15:30:03] BillController: Bill created successfully - Number: BIL-37
+[2025-10-18 15:37:38] FrameController: POST Search request received - {search=wo}
+[2025-10-18 15:37:38] FrameService: Validating search term - wo
+[2025-10-18 15:37:38] FrameService: Calling repository to search frames
+[2025-10-18 15:37:38] FrameRepository: Searching frames with termwo
+[2025-10-18 15:37:38] DaoCommon params: [wo]
+[2025-10-18 15:37:38] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 15:37:38] DaoCommon Success: Returned 1 records
+[2025-10-18 15:37:38] FrameRepository: Search found 1 frames
+[2025-10-18 15:37:38] FrameController: POST Search successful, returning 1 frames
+[2025-10-18 15:37:43] LensController: POST Search request received - {search=bl}
+[2025-10-18 15:37:43] LensService: Validating search term - bl
+[2025-10-18 15:37:43] LensService: Calling repository to search lenses
+[2025-10-18 15:37:43] LensRepository: Searching lenses with term - bl
+[2025-10-18 15:37:43] DaoCommon params: [bl]
+[2025-10-18 15:37:43] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 15:37:43] DaoCommon Success: Returned 2 records
+[2025-10-18 15:37:43] LensRepository: Search found 2 lenses
+[2025-10-18 15:37:43] LensController: POST Search successful, returning 2 lenses
+[2025-10-18 15:37:50] BillController: Create bill request received
+[2025-10-18 15:37:50] BillRecordService: Creating new bill for customer - kumarvel
+[2025-10-18 15:37:50] BillRecordRepository: Creating new bill for kumarvel
+[2025-10-18 15:37:50] DaoCommon params: [kumarvel, 8248225846, chennai, 35, 1, 1, 500, 4, 1, 1800, 0, 0, 0, CASH, 0]
+[2025-10-18 15:37:50] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-18 15:37:50] DaoCommon Success: Returned 1 records
+[2025-10-18 15:37:50] BillRecordRepository: Bill created successfully
+[2025-10-18 15:37:50] BillRecordService: Attempting auto print for bill ID: 38
+[2025-10-18 15:37:50] DaoCommon params: [38]
+[2025-10-18 15:37:50] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-18 15:37:50] DaoCommon Success: Returned 1 records
+[2025-10-18 15:37:50] BillRecordRepository: Found bill - BIL-38
+[2025-10-18 15:37:50] BillRecordService: Starting Java Print Service for bill: 38
+[2025-10-18 15:37:50] BillRecordService: Found 6 printers
+[2025-10-18 15:37:50] BillRecordService: Available Printer: Send To OneNote 2013
+[2025-10-18 15:37:50] BillRecordService: Available Printer: OneNote for Windows 10
+[2025-10-18 15:37:50] BillRecordService: Available Printer: OneNote (Desktop)
+[2025-10-18 15:37:50] BillRecordService: Available Printer: Microsoft XPS Document Writer
+[2025-10-18 15:37:50] BillRecordService: Available Printer: Microsoft Print to PDF
+[2025-10-18 15:37:50] BillRecordService: Available Printer: Fax
+[2025-10-18 15:37:50] BillRecordService: No HP printer found, using default printer
+[2025-10-18 15:37:50] BillRecordService: Selected Printer: Microsoft Print to PDF
+[2025-10-18 15:37:50] BillRecordService: Sending print job to printer...
+[2025-10-18 15:37:50] BillRecordService: Print job submitted successfully for bill: 38
+[2025-10-18 15:37:50] BillRecordService:  Bill auto-printed successfully - ID: 38
+[2025-10-18 15:37:50] BillController: Bill created successfully - Number: BIL-38
+[2025-10-18 15:46:22] FrameController: POST Search request received - {search=WO}
+[2025-10-18 15:46:22] FrameService: Validating search term - WO
+[2025-10-18 15:46:22] FrameService: Calling repository to search frames
+[2025-10-18 15:46:22] FrameRepository: Searching frames with termWO
+[2025-10-18 15:46:22] DaoCommon params: [WO]
+[2025-10-18 15:46:22] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 15:46:22] DaoCommon Success: Returned 1 records
+[2025-10-18 15:46:22] FrameRepository: Search found 1 frames
+[2025-10-18 15:46:22] FrameController: POST Search successful, returning 1 frames
+[2025-10-18 15:46:26] LensController: POST Search request received - {search=BL}
+[2025-10-18 15:46:26] LensService: Validating search term - BL
+[2025-10-18 15:46:26] LensService: Calling repository to search lenses
+[2025-10-18 15:46:26] LensRepository: Searching lenses with term - BL
+[2025-10-18 15:46:26] DaoCommon params: [BL]
+[2025-10-18 15:46:26] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 15:46:26] DaoCommon Success: Returned 2 records
+[2025-10-18 15:46:26] LensRepository: Search found 2 lenses
+[2025-10-18 15:46:26] LensController: POST Search successful, returning 2 lenses
+[2025-10-18 15:46:49] BillController: Create bill request received
+[2025-10-18 15:46:49] BillRecordService: Creating new bill for customer - KUMARAVEL
+[2025-10-18 15:46:49] BillRecordRepository: Creating new bill for KUMARAVEL
+[2025-10-18 15:46:49] DaoCommon params: [KUMARAVEL, 8248225846, CHEANNI, 21, 1, 1, 500, 10, 1, 2200, 0, 0, 99, CASH, 500]
+[2025-10-18 15:46:49] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-18 15:46:49] DaoCommon Success: Returned 1 records
+[2025-10-18 15:46:49] BillRecordRepository: Bill created successfully
+[2025-10-18 15:46:49] BillRecordService: Attempting auto print for bill ID: 39
+[2025-10-18 15:46:49] DaoCommon params: [39]
+[2025-10-18 15:46:49] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-18 15:46:49] DaoCommon Success: Returned 1 records
+[2025-10-18 15:46:49] BillRecordRepository: Found bill - BIL-39
+[2025-10-18 15:46:49] BillRecordService: Starting Java Print Service for bill: 39
+[2025-10-18 15:46:49] BillRecordService: Found 6 printers
+[2025-10-18 15:46:49] BillRecordService: Available Printer: Send To OneNote 2013
+[2025-10-18 15:46:49] BillRecordService: Available Printer: OneNote for Windows 10
+[2025-10-18 15:46:49] BillRecordService: Available Printer: OneNote (Desktop)
+[2025-10-18 15:46:49] BillRecordService: Available Printer: Microsoft XPS Document Writer
+[2025-10-18 15:46:49] BillRecordService: Available Printer: Microsoft Print to PDF
+[2025-10-18 15:46:49] BillRecordService: Available Printer: Fax
+[2025-10-18 15:46:49] BillRecordService: No HP printer found, using default printer
+[2025-10-18 15:46:49] BillRecordService: Selected Printer: Microsoft Print to PDF
+[2025-10-18 15:46:49] BillRecordService: Sending print job to printer...
+[2025-10-18 15:46:49] BillRecordService: Print job submitted successfully for bill: 39
+[2025-10-18 15:46:49] BillRecordService:  Bill auto-printed successfully - ID: 39
+[2025-10-18 15:46:49] BillController: Bill created successfully - Number: BIL-39
+[2025-10-18 15:47:44] FrameController: POST Search request received - {search=wo}
+[2025-10-18 15:47:44] FrameService: Validating search term - wo
+[2025-10-18 15:47:44] FrameService: Calling repository to search frames
+[2025-10-18 15:47:44] FrameRepository: Searching frames with termwo
+[2025-10-18 15:47:44] DaoCommon params: [wo]
+[2025-10-18 15:47:44] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 15:47:44] DaoCommon Success: Returned 1 records
+[2025-10-18 15:47:44] FrameRepository: Search found 1 frames
+[2025-10-18 15:47:44] FrameController: POST Search successful, returning 1 frames
+[2025-10-18 15:47:49] LensController: POST Search request received - {search=bu}
+[2025-10-18 15:47:49] LensService: Validating search term - bu
+[2025-10-18 15:47:49] LensService: Calling repository to search lenses
+[2025-10-18 15:47:49] LensRepository: Searching lenses with term - bu
+[2025-10-18 15:47:49] DaoCommon params: [bu]
+[2025-10-18 15:47:49] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 15:47:49] DaoCommon Success: Returned 0 records
+[2025-10-18 15:47:49] LensRepository: Search found 0 lenses
+[2025-10-18 15:47:49] LensController: POST Search successful, returning 0 lenses
+[2025-10-18 15:47:51] LensController: POST Search request received - {search=bul}
+[2025-10-18 15:47:51] LensService: Validating search term - bul
+[2025-10-18 15:47:51] LensService: Calling repository to search lenses
+[2025-10-18 15:47:51] LensRepository: Searching lenses with term - bul
+[2025-10-18 15:47:51] DaoCommon params: [bul]
+[2025-10-18 15:47:51] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 15:47:51] DaoCommon Success: Returned 0 records
+[2025-10-18 15:47:51] LensRepository: Search found 0 lenses
+[2025-10-18 15:47:51] LensController: POST Search successful, returning 0 lenses
+[2025-10-18 15:47:53] LensController: POST Search request received - {search=bu}
+[2025-10-18 15:47:53] LensService: Validating search term - bu
+[2025-10-18 15:47:53] LensService: Calling repository to search lenses
+[2025-10-18 15:47:53] LensRepository: Searching lenses with term - bu
+[2025-10-18 15:47:53] DaoCommon params: [bu]
+[2025-10-18 15:47:53] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 15:47:53] DaoCommon Success: Returned 0 records
+[2025-10-18 15:47:53] LensRepository: Search found 0 lenses
+[2025-10-18 15:47:53] LensController: POST Search successful, returning 0 lenses
+[2025-10-18 15:47:54] LensController: POST Search request received - {search=bl}
+[2025-10-18 15:47:54] LensService: Validating search term - bl
+[2025-10-18 15:47:54] LensService: Calling repository to search lenses
+[2025-10-18 15:47:54] LensRepository: Searching lenses with term - bl
+[2025-10-18 15:47:54] DaoCommon params: [bl]
+[2025-10-18 15:47:54] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 15:47:54] DaoCommon Success: Returned 2 records
+[2025-10-18 15:47:54] LensRepository: Search found 2 lenses
+[2025-10-18 15:47:54] LensController: POST Search successful, returning 2 lenses
+[2025-10-18 15:48:10] BillController: Create bill request received
+[2025-10-18 15:48:10] BillRecordService: Creating new bill for customer - kumaravel
+[2025-10-18 15:48:10] BillRecordRepository: Creating new bill for kumaravel
+[2025-10-18 15:48:10] DaoCommon params: [kumaravel, 8248225846, chennai, 21, 1, 1, 500, 10, 1, 2200, 0, 0, 98, CASH, 500]
+[2025-10-18 15:48:10] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-18 15:48:11] DaoCommon Success: Returned 1 records
+[2025-10-18 15:48:11] BillRecordRepository: Bill created successfully
+[2025-10-18 15:48:11] BillRecordService: Attempting auto print for bill ID: 40
+[2025-10-18 15:48:11] DaoCommon params: [40]
+[2025-10-18 15:48:11] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-18 15:48:11] DaoCommon Success: Returned 1 records
+[2025-10-18 15:48:11] BillRecordRepository: Found bill - BIL-40
+[2025-10-18 15:48:11] BillRecordService: Starting Java Print Service for bill: 40
+[2025-10-18 15:48:11] BillRecordService: Found 6 printers
+[2025-10-18 15:48:11] BillRecordService: Available Printer: Send To OneNote 2013
+[2025-10-18 15:48:11] BillRecordService: Available Printer: OneNote for Windows 10
+[2025-10-18 15:48:11] BillRecordService: Available Printer: OneNote (Desktop)
+[2025-10-18 15:48:11] BillRecordService: Available Printer: Microsoft XPS Document Writer
+[2025-10-18 15:48:11] BillRecordService: Available Printer: Microsoft Print to PDF
+[2025-10-18 15:48:11] BillRecordService: Available Printer: Fax
+[2025-10-18 15:48:11] BillRecordService: No HP printer found, using default printer
+[2025-10-18 15:48:11] BillRecordService: Selected Printer: Microsoft Print to PDF
+[2025-10-18 15:48:11] BillRecordService: Sending print job to printer...
+[2025-10-18 15:48:12] BillRecordService: Print job submitted successfully for bill: 40
+[2025-10-18 15:48:12] BillRecordService:  Bill auto-printed successfully - ID: 40
+[2025-10-18 15:48:12] BillController: Bill created successfully - Number: BIL-40
+[2025-10-18 15:50:35] FrameController: POST Search request received - {search=wo}
+[2025-10-18 15:50:35] FrameService: Validating search term - wo
+[2025-10-18 15:50:35] FrameService: Calling repository to search frames
+[2025-10-18 15:50:35] FrameRepository: Searching frames with termwo
+[2025-10-18 15:50:35] DaoCommon params: [wo]
+[2025-10-18 15:50:35] DaoCommon SQL: CALL search_frames(?)
+[2025-10-18 15:50:35] DaoCommon Success: Returned 1 records
+[2025-10-18 15:50:35] FrameRepository: Search found 1 frames
+[2025-10-18 15:50:35] FrameController: POST Search successful, returning 1 frames
+[2025-10-18 15:50:39] LensController: POST Search request received - {search=bl}
+[2025-10-18 15:50:39] LensService: Validating search term - bl
+[2025-10-18 15:50:39] LensService: Calling repository to search lenses
+[2025-10-18 15:50:39] LensRepository: Searching lenses with term - bl
+[2025-10-18 15:50:39] DaoCommon params: [bl]
+[2025-10-18 15:50:39] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-18 15:50:39] DaoCommon Success: Returned 2 records
+[2025-10-18 15:50:39] LensRepository: Search found 2 lenses
+[2025-10-18 15:50:39] LensController: POST Search successful, returning 2 lenses
+[2025-10-18 15:50:59] BillController: Create bill request received
+[2025-10-18 15:50:59] BillRecordService: Creating new bill for customer - kumaravel
+[2025-10-18 15:50:59] BillRecordRepository: Creating new bill for kumaravel
+[2025-10-18 15:50:59] DaoCommon params: [kumaravel, 8248225846, chennai, 21, 1, 1, 500, 4, 1, 1800, 0, 0, 100, CASH, 500]
+[2025-10-18 15:50:59] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-18 15:50:59] DaoCommon Success: Returned 1 records
+[2025-10-18 15:50:59] BillRecordRepository: Bill created successfully
+[2025-10-18 15:50:59] BillRecordService: Attempting auto print for bill ID: 41
+[2025-10-18 15:50:59] DaoCommon params: [41]
+[2025-10-18 15:50:59] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-18 15:50:59] DaoCommon Success: Returned 1 records
+[2025-10-18 15:50:59] BillRecordRepository: Found bill - BIL-41
+[2025-10-18 15:50:59] BillRecordService: Starting Java Print Service for bill: 41
+[2025-10-18 15:50:59] BillRecordService: Found 6 printers
+[2025-10-18 15:50:59] BillRecordService: Available Printer: Send To OneNote 2013
+[2025-10-18 15:50:59] BillRecordService: Available Printer: OneNote for Windows 10
+[2025-10-18 15:50:59] BillRecordService: Available Printer: OneNote (Desktop)
+[2025-10-18 15:50:59] BillRecordService: Available Printer: Microsoft XPS Document Writer
+[2025-10-18 15:50:59] BillRecordService: Available Printer: Microsoft Print to PDF
+[2025-10-18 15:50:59] BillRecordService: Available Printer: Fax
+[2025-10-18 15:50:59] BillRecordService: No HP printer found, using default printer
+[2025-10-18 15:50:59] BillRecordService: Selected Printer: Microsoft Print to PDF
+[2025-10-18 15:50:59] BillRecordService: Sending print job to printer...
+[2025-10-18 15:51:00] BillRecordService: Print job submitted successfully for bill: 41
+[2025-10-18 15:51:00] BillRecordService:  Bill auto-printed successfully - ID: 41
+[2025-10-18 15:51:00] BillController: Bill created successfully - Number: BIL-41

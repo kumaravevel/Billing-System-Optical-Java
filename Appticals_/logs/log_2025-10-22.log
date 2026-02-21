@@ -1,0 +1,575 @@
+[2025-10-22 10:23:30] FrameController: POST Search request received - {search=wo}
+[2025-10-22 10:23:30] FrameService: Validating search term - wo
+[2025-10-22 10:23:30] FrameService: Calling repository to search frames
+[2025-10-22 10:23:30] FrameRepository: Searching frames with termwo
+[2025-10-22 10:23:30] DaoCommon params: [wo]
+[2025-10-22 10:23:30] DaoCommon SQL: CALL search_frames(?)
+[2025-10-22 10:23:30] DaoCommon Success: Returned 1 records
+[2025-10-22 10:23:30] FrameRepository: Search found 1 frames
+[2025-10-22 10:23:30] FrameController: POST Search successful, returning 1 frames
+[2025-10-22 10:23:37] LensController: POST Search request received - {search=bl}
+[2025-10-22 10:23:37] LensService: Validating search term - bl
+[2025-10-22 10:23:37] LensService: Calling repository to search lenses
+[2025-10-22 10:23:37] LensRepository: Searching lenses with term - bl
+[2025-10-22 10:23:37] DaoCommon params: [bl]
+[2025-10-22 10:23:37] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-22 10:23:37] DaoCommon Success: Returned 2 records
+[2025-10-22 10:23:37] LensRepository: Search found 2 lenses
+[2025-10-22 10:23:37] LensController: POST Search successful, returning 2 lenses
+[2025-10-22 10:23:44] BillController: Create bill request received
+[2025-10-22 10:23:44] BillRecordService: Creating new bill for customer - kumaravel
+[2025-10-22 10:23:44] BillRecordRepository: Creating new bill for kumaravel
+[2025-10-22 10:23:44] DaoCommon params: [kumaravel, 8248225846, chennai, 21, 1, 1, 500, 10, 1, 2200, 0, 0, 0, CASH, 1000]
+[2025-10-22 10:23:44] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-22 10:23:45] DaoCommon Success: Returned 1 records
+[2025-10-22 10:23:45] BillRecordRepository: Bill created successfully
+[2025-10-22 10:23:45] BillRecordService: Attempting auto print for bill ID: 42
+[2025-10-22 10:23:45] DaoCommon params: [42]
+[2025-10-22 10:23:45] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-22 10:23:45] DaoCommon Success: Returned 1 records
+[2025-10-22 10:23:45] BillRecordRepository: Found bill - BIL-42
+[2025-10-22 10:23:45] BillRecordService: Starting Java Print Service for bill: 42
+[2025-10-22 10:23:45] BillRecordService: Found 6 printers
+[2025-10-22 10:23:45] BillRecordService: Available Printer: Send To OneNote 2013
+[2025-10-22 10:23:45] BillRecordService: Available Printer: OneNote for Windows 10
+[2025-10-22 10:23:45] BillRecordService: Available Printer: OneNote (Desktop)
+[2025-10-22 10:23:45] BillRecordService: Available Printer: Microsoft XPS Document Writer
+[2025-10-22 10:23:45] BillRecordService: Available Printer: Microsoft Print to PDF
+[2025-10-22 10:23:45] BillRecordService: Available Printer: Fax
+[2025-10-22 10:23:45] BillRecordService: No HP printer found, using default printer
+[2025-10-22 10:23:45] BillRecordService: Selected Printer: Microsoft Print to PDF
+[2025-10-22 10:23:45] BillRecordService: Sending print job to printer...
+[2025-10-22 10:23:48] BillRecordService: Print job submitted successfully for bill: 42
+[2025-10-22 10:23:48] BillRecordService:  Bill auto-printed successfully - ID: 42
+[2025-10-22 10:23:48] BillController: Bill created successfully - Number: BIL-42
+[2025-10-22 10:42:26] FrameController: POST Search request received - {search=wo}
+[2025-10-22 10:42:26] FrameService: Validating search term - wo
+[2025-10-22 10:42:26] FrameService: Calling repository to search frames
+[2025-10-22 10:42:26] FrameRepository: Searching frames with termwo
+[2025-10-22 10:42:26] DaoCommon params: [wo]
+[2025-10-22 10:42:26] DaoCommon SQL: CALL search_frames(?)
+[2025-10-22 10:42:26] DaoCommon Success: Returned 1 records
+[2025-10-22 10:42:26] FrameRepository: Search found 1 frames
+[2025-10-22 10:42:26] FrameController: POST Search successful, returning 1 frames
+[2025-10-22 10:42:31] LensController: POST Search request received - {search=bl}
+[2025-10-22 10:42:31] LensService: Validating search term - bl
+[2025-10-22 10:42:31] LensService: Calling repository to search lenses
+[2025-10-22 10:42:31] LensRepository: Searching lenses with term - bl
+[2025-10-22 10:42:31] DaoCommon params: [bl]
+[2025-10-22 10:42:31] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-22 10:42:31] DaoCommon Success: Returned 2 records
+[2025-10-22 10:42:31] LensRepository: Search found 2 lenses
+[2025-10-22 10:42:31] LensController: POST Search successful, returning 2 lenses
+[2025-10-22 10:42:44] BillController: Create bill request received
+[2025-10-22 10:42:44] BillRecordService: Creating new bill for customer - prem
+[2025-10-22 10:42:44] BillRecordRepository: Creating new bill for prem
+[2025-10-22 10:42:44] DaoCommon params: [prem, 8248225846, cheanni, 27, 1, 1, 500, 4, 1, 1800, 0, 0, 0, CARD, 100]
+[2025-10-22 10:42:44] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-22 10:42:44] DaoCommon Success: Returned 1 records
+[2025-10-22 10:42:44] BillRecordRepository: Bill created successfully
+[2025-10-22 10:42:44] BillRecordService: Attempting auto print for bill ID: 43
+[2025-10-22 10:42:44] DaoCommon params: [43]
+[2025-10-22 10:42:44] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-22 10:42:44] DaoCommon Success: Returned 1 records
+[2025-10-22 10:42:44] BillRecordRepository: Found bill - BIL-43
+[2025-10-22 10:42:44] BillRecordService: Starting Java Print Service for bill: 43
+[2025-10-22 10:42:44] BillRecordService: Found 6 printers
+[2025-10-22 10:42:44] BillRecordService: Available Printer: OneNote (Desktop)
+[2025-10-22 10:42:44] BillRecordService: Available Printer: Send To OneNote 2013
+[2025-10-22 10:42:44] BillRecordService: Available Printer: OneNote for Windows 10
+[2025-10-22 10:42:44] BillRecordService: Available Printer: Microsoft XPS Document Writer
+[2025-10-22 10:42:44] BillRecordService: Available Printer: Microsoft Print to PDF
+[2025-10-22 10:42:44] BillRecordService: Available Printer: Fax
+[2025-10-22 10:42:44] BillRecordService: No HP printer found, using default printer
+[2025-10-22 10:42:44] BillRecordService: Selected Printer: Microsoft Print to PDF
+[2025-10-22 10:42:44] BillRecordService: Sending print job to printer...
+[2025-10-22 10:42:45] BillRecordService: Print job submitted successfully for bill: 43
+[2025-10-22 10:42:45] BillRecordService:  Bill auto-printed successfully - ID: 43
+[2025-10-22 10:42:45] BillController: Bill created successfully - Number: BIL-43
+[2025-10-22 11:11:22] FrameController: POST Search request received - {search=wo}
+[2025-10-22 11:11:22] FrameService: Validating search term - wo
+[2025-10-22 11:11:22] FrameService: Calling repository to search frames
+[2025-10-22 11:11:22] FrameRepository: Searching frames with termwo
+[2025-10-22 11:11:22] DaoCommon params: [wo]
+[2025-10-22 11:11:22] DaoCommon SQL: CALL search_frames(?)
+[2025-10-22 11:11:22] DaoCommon Success: Returned 1 records
+[2025-10-22 11:11:22] FrameRepository: Search found 1 frames
+[2025-10-22 11:11:22] FrameController: POST Search successful, returning 1 frames
+[2025-10-22 11:11:30] LensController: POST Search request received - {search=bl}
+[2025-10-22 11:11:30] LensService: Validating search term - bl
+[2025-10-22 11:11:30] LensService: Calling repository to search lenses
+[2025-10-22 11:11:30] LensRepository: Searching lenses with term - bl
+[2025-10-22 11:11:30] DaoCommon params: [bl]
+[2025-10-22 11:11:30] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-22 11:11:30] DaoCommon Success: Returned 2 records
+[2025-10-22 11:11:30] LensRepository: Search found 2 lenses
+[2025-10-22 11:11:30] LensController: POST Search successful, returning 2 lenses
+[2025-10-22 11:11:35] BillController: Create bill request received
+[2025-10-22 11:11:35] BillRecordService: Creating new bill for customer - kumarevel
+[2025-10-22 11:11:35] BillRecordRepository: Creating new bill for kumarevel
+[2025-10-22 11:11:35] DaoCommon params: [kumarevel, 8248225846, chennai, 21, 1, 1, 500, 10, 1, 2200, 0, 0, 0, CASH, 1000]
+[2025-10-22 11:11:35] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-22 11:11:35] DaoCommon Success: Returned 1 records
+[2025-10-22 11:11:35] BillRecordRepository: Bill created successfully
+[2025-10-22 11:11:35] BillRecordService: Attempting auto print for bill ID: 44
+[2025-10-22 11:11:35] DaoCommon params: [44]
+[2025-10-22 11:11:35] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-22 11:11:35] DaoCommon Success: Returned 1 records
+[2025-10-22 11:11:35] BillRecordRepository: Found bill - BIL-44
+[2025-10-22 11:11:35] BillRecordService: Starting Java Print Service for bill: 44
+[2025-10-22 11:11:35] BillRecordService: Found 6 printers
+[2025-10-22 11:11:35] BillRecordService: Available Printer: OneNote (Desktop)
+[2025-10-22 11:11:35] BillRecordService: Available Printer: Send To OneNote 2013
+[2025-10-22 11:11:35] BillRecordService: Available Printer: OneNote for Windows 10
+[2025-10-22 11:11:35] BillRecordService: Available Printer: Microsoft XPS Document Writer
+[2025-10-22 11:11:35] BillRecordService: Available Printer: Microsoft Print to PDF
+[2025-10-22 11:11:35] BillRecordService: Available Printer: Fax
+[2025-10-22 11:11:35] BillRecordService: No HP printer found, using default printer
+[2025-10-22 11:11:35] BillRecordService: Selected Printer: Microsoft Print to PDF
+[2025-10-22 11:11:35] BillRecordService: Sending print job to printer...
+[2025-10-22 11:11:35] BillRecordService: Print job submitted successfully for bill: 44
+[2025-10-22 11:11:35] BillRecordService:  Bill auto-printed successfully - ID: 44
+[2025-10-22 11:11:35] BillController: Bill created successfully - Number: BIL-44
+[2025-10-22 11:13:58] FrameController: POST Search request received - {search=wo}
+[2025-10-22 11:13:58] FrameService: Validating search term - wo
+[2025-10-22 11:13:58] FrameService: Calling repository to search frames
+[2025-10-22 11:13:58] FrameRepository: Searching frames with termwo
+[2025-10-22 11:13:58] DaoCommon params: [wo]
+[2025-10-22 11:13:58] DaoCommon SQL: CALL search_frames(?)
+[2025-10-22 11:13:58] DaoCommon Success: Returned 1 records
+[2025-10-22 11:13:58] FrameRepository: Search found 1 frames
+[2025-10-22 11:13:58] FrameController: POST Search successful, returning 1 frames
+[2025-10-22 11:14:04] LensController: POST Search request received - {search=ba}
+[2025-10-22 11:14:04] LensService: Validating search term - ba
+[2025-10-22 11:14:04] LensService: Calling repository to search lenses
+[2025-10-22 11:14:04] LensRepository: Searching lenses with term - ba
+[2025-10-22 11:14:04] DaoCommon params: [ba]
+[2025-10-22 11:14:04] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-22 11:14:04] DaoCommon Success: Returned 1 records
+[2025-10-22 11:14:04] LensRepository: Search found 1 lenses
+[2025-10-22 11:14:04] LensController: POST Search successful, returning 1 lenses
+[2025-10-22 11:14:05] LensController: POST Search request received - {search=bl}
+[2025-10-22 11:14:05] LensService: Validating search term - bl
+[2025-10-22 11:14:05] LensService: Calling repository to search lenses
+[2025-10-22 11:14:05] LensRepository: Searching lenses with term - bl
+[2025-10-22 11:14:05] DaoCommon params: [bl]
+[2025-10-22 11:14:05] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-22 11:14:05] DaoCommon Success: Returned 2 records
+[2025-10-22 11:14:05] LensRepository: Search found 2 lenses
+[2025-10-22 11:14:05] LensController: POST Search successful, returning 2 lenses
+[2025-10-22 11:14:09] BillController: Create bill request received
+[2025-10-22 11:14:09] BillRecordService: Creating new bill for customer - kumaravel
+[2025-10-22 11:14:09] BillRecordRepository: Creating new bill for kumaravel
+[2025-10-22 11:14:09] DaoCommon params: [kumaravel, 828225846, chennai, 21, 1, 1, 500, 10, 1, 2200, 0, 0, 0, CASH, 0]
+[2025-10-22 11:14:09] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-22 11:14:09] DaoCommon Success: Returned 1 records
+[2025-10-22 11:14:09] BillRecordRepository: Bill created successfully
+[2025-10-22 11:14:09] BillRecordService: Attempting auto print for bill ID: 45
+[2025-10-22 11:14:09] DaoCommon params: [45]
+[2025-10-22 11:14:09] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-22 11:14:09] DaoCommon Success: Returned 1 records
+[2025-10-22 11:14:09] BillRecordRepository: Found bill - BIL-45
+[2025-10-22 11:14:09] BillRecordService: Starting Java Print Service for bill: 45
+[2025-10-22 11:14:09] BillRecordService: Found 6 printers
+[2025-10-22 11:14:09] BillRecordService: Available Printer: OneNote (Desktop)
+[2025-10-22 11:14:09] BillRecordService: Available Printer: Send To OneNote 2013
+[2025-10-22 11:14:09] BillRecordService: Available Printer: OneNote for Windows 10
+[2025-10-22 11:14:09] BillRecordService: Available Printer: Microsoft XPS Document Writer
+[2025-10-22 11:14:09] BillRecordService: Available Printer: Microsoft Print to PDF
+[2025-10-22 11:14:09] BillRecordService: Available Printer: Fax
+[2025-10-22 11:14:09] BillRecordService: No HP printer found, using default printer
+[2025-10-22 11:14:09] BillRecordService: Selected Printer: Microsoft Print to PDF
+[2025-10-22 11:14:09] BillRecordService: Sending print job to printer...
+[2025-10-22 11:14:10] BillRecordService: Print job submitted successfully for bill: 45
+[2025-10-22 11:14:10] BillRecordService:  Bill auto-printed successfully - ID: 45
+[2025-10-22 11:14:10] BillController: Bill created successfully - Number: BIL-45
+[2025-10-22 11:20:28] FrameController: POST Search request received - {search=wo}
+[2025-10-22 11:20:28] FrameService: Validating search term - wo
+[2025-10-22 11:20:28] FrameService: Calling repository to search frames
+[2025-10-22 11:20:28] FrameRepository: Searching frames with termwo
+[2025-10-22 11:20:28] DaoCommon params: [wo]
+[2025-10-22 11:20:28] DaoCommon SQL: CALL search_frames(?)
+[2025-10-22 11:20:28] DaoCommon Success: Returned 1 records
+[2025-10-22 11:20:28] FrameRepository: Search found 1 frames
+[2025-10-22 11:20:28] FrameController: POST Search successful, returning 1 frames
+[2025-10-22 11:20:32] LensController: POST Search request received - {search=bl}
+[2025-10-22 11:20:32] LensService: Validating search term - bl
+[2025-10-22 11:20:32] LensService: Calling repository to search lenses
+[2025-10-22 11:20:32] LensRepository: Searching lenses with term - bl
+[2025-10-22 11:20:32] DaoCommon params: [bl]
+[2025-10-22 11:20:32] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-22 11:20:32] DaoCommon Success: Returned 2 records
+[2025-10-22 11:20:32] LensRepository: Search found 2 lenses
+[2025-10-22 11:20:32] LensController: POST Search successful, returning 2 lenses
+[2025-10-22 11:20:36] BillController: Create bill request received
+[2025-10-22 11:20:36] BillRecordService: Creating new bill for customer - kumarevl
+[2025-10-22 11:20:36] BillRecordRepository: Creating new bill for kumarevl
+[2025-10-22 11:20:36] DaoCommon params: [kumarevl, 8248225846, chennai, 32, 1, 1, 500, 10, 1, 2200, 0, 0, 0, CASH, 0]
+[2025-10-22 11:20:36] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-22 11:20:36] DaoCommon Success: Returned 1 records
+[2025-10-22 11:20:36] BillRecordRepository: Bill created successfully
+[2025-10-22 11:20:36] BillRecordService: Attempting auto print for bill ID: 46
+[2025-10-22 11:20:36] DaoCommon params: [46]
+[2025-10-22 11:20:36] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-22 11:20:36] DaoCommon Success: Returned 1 records
+[2025-10-22 11:20:36] BillRecordRepository: Found bill - BIL-46
+[2025-10-22 11:20:36] BillRecordService: Starting Java Print Service for bill: 46
+[2025-10-22 11:20:36] BillRecordService: Found 6 printers
+[2025-10-22 11:20:36] BillRecordService: Available Printer: OneNote (Desktop)
+[2025-10-22 11:20:36] BillRecordService: Available Printer: Send To OneNote 2013
+[2025-10-22 11:20:36] BillRecordService: Available Printer: OneNote for Windows 10
+[2025-10-22 11:20:36] BillRecordService: Available Printer: Microsoft XPS Document Writer
+[2025-10-22 11:20:36] BillRecordService: Available Printer: Microsoft Print to PDF
+[2025-10-22 11:20:36] BillRecordService: Available Printer: Fax
+[2025-10-22 11:20:36] BillRecordService: No HP printer found, using default printer
+[2025-10-22 11:20:36] BillRecordService: Selected Printer: Microsoft Print to PDF
+[2025-10-22 11:20:36] BillRecordService: Sending print job to printer...
+[2025-10-22 11:20:37] BillRecordService: Print job submitted successfully for bill: 46
+[2025-10-22 11:20:37] BillRecordService:  Bill auto-printed successfully - ID: 46
+[2025-10-22 11:20:37] BillController: Bill created successfully - Number: BIL-46
+[2025-10-22 11:36:30] FrameController: POST Search request received - {search=wo}
+[2025-10-22 11:36:30] FrameService: Validating search term - wo
+[2025-10-22 11:36:30] FrameService: Calling repository to search frames
+[2025-10-22 11:36:30] FrameRepository: Searching frames with termwo
+[2025-10-22 11:36:30] DaoCommon params: [wo]
+[2025-10-22 11:36:30] DaoCommon SQL: CALL search_frames(?)
+[2025-10-22 11:36:30] DaoCommon Success: Returned 1 records
+[2025-10-22 11:36:30] FrameRepository: Search found 1 frames
+[2025-10-22 11:36:30] FrameController: POST Search successful, returning 1 frames
+[2025-10-22 11:36:34] LensController: POST Search request received - {search=bl}
+[2025-10-22 11:36:34] LensService: Validating search term - bl
+[2025-10-22 11:36:34] LensService: Calling repository to search lenses
+[2025-10-22 11:36:34] LensRepository: Searching lenses with term - bl
+[2025-10-22 11:36:34] DaoCommon params: [bl]
+[2025-10-22 11:36:34] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-22 11:36:34] DaoCommon Success: Returned 2 records
+[2025-10-22 11:36:34] LensRepository: Search found 2 lenses
+[2025-10-22 11:36:34] LensController: POST Search successful, returning 2 lenses
+[2025-10-22 11:36:38] BillController: Create bill request received
+[2025-10-22 11:36:38] BillRecordService: Creating new bill for customer - kumaravel
+[2025-10-22 11:36:38] BillRecordRepository: Creating new bill for kumaravel
+[2025-10-22 11:36:38] DaoCommon params: [kumaravel, 8248225846, channai, 21, 1, 1, 500, 10, 1, 2200, 0, 0, 0, CASH, 0]
+[2025-10-22 11:36:38] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-22 11:36:38] DaoCommon Success: Returned 1 records
+[2025-10-22 11:36:38] BillRecordRepository: Bill created successfully
+[2025-10-22 11:36:38] BillRecordService: Attempting auto print for bill ID: 47
+[2025-10-22 11:36:38] DaoCommon params: [47]
+[2025-10-22 11:36:38] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-22 11:36:38] DaoCommon Success: Returned 1 records
+[2025-10-22 11:36:38] BillRecordRepository: Found bill - BIL-47
+[2025-10-22 11:36:38] BillRecordService: Starting Java Print Service for bill: 47
+[2025-10-22 11:36:38] BillRecordService: Found 6 printers
+[2025-10-22 11:36:38] BillRecordService: Available Printer: OneNote (Desktop)
+[2025-10-22 11:36:38] BillRecordService: Available Printer: Send To OneNote 2013
+[2025-10-22 11:36:38] BillRecordService: Available Printer: OneNote for Windows 10
+[2025-10-22 11:36:38] BillRecordService: Available Printer: Microsoft XPS Document Writer
+[2025-10-22 11:36:38] BillRecordService: Available Printer: Microsoft Print to PDF
+[2025-10-22 11:36:38] BillRecordService: Available Printer: Fax
+[2025-10-22 11:36:38] BillRecordService: No HP printer found, using default printer
+[2025-10-22 11:36:38] BillRecordService: Selected Printer: Microsoft Print to PDF
+[2025-10-22 11:36:38] BillRecordService: Sending print job to printer...
+[2025-10-22 11:36:38] BillRecordService: Print job submitted successfully for bill: 47
+[2025-10-22 11:36:38] BillRecordService:  Bill auto-printed successfully - ID: 47
+[2025-10-22 11:36:38] BillController: Bill created successfully - Number: BIL-47
+[2025-10-22 11:38:26] FrameController: POST Search request received - {search=wo}
+[2025-10-22 11:38:26] FrameService: Validating search term - wo
+[2025-10-22 11:38:26] FrameService: Calling repository to search frames
+[2025-10-22 11:38:26] FrameRepository: Searching frames with termwo
+[2025-10-22 11:38:26] DaoCommon params: [wo]
+[2025-10-22 11:38:26] DaoCommon SQL: CALL search_frames(?)
+[2025-10-22 11:38:26] DaoCommon Success: Returned 1 records
+[2025-10-22 11:38:26] FrameRepository: Search found 1 frames
+[2025-10-22 11:38:26] FrameController: POST Search successful, returning 1 frames
+[2025-10-22 11:38:32] LensController: POST Search request received - {search=bl}
+[2025-10-22 11:38:32] LensService: Validating search term - bl
+[2025-10-22 11:38:32] LensService: Calling repository to search lenses
+[2025-10-22 11:38:32] LensRepository: Searching lenses with term - bl
+[2025-10-22 11:38:32] DaoCommon params: [bl]
+[2025-10-22 11:38:32] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-22 11:38:32] DaoCommon Success: Returned 2 records
+[2025-10-22 11:38:32] LensRepository: Search found 2 lenses
+[2025-10-22 11:38:32] LensController: POST Search successful, returning 2 lenses
+[2025-10-22 11:40:26] BillController: Create bill request received
+[2025-10-22 11:40:26] BillRecordService: Creating new bill for customer - kumaravel
+[2025-10-22 11:40:26] BillRecordRepository: Creating new bill for kumaravel
+[2025-10-22 11:40:26] DaoCommon params: [kumaravel, 8248225846, chennai, 21, 1, 2, 500, 4, 2, 1800, 20, 50, 100, CASH, 1000]
+[2025-10-22 11:40:26] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-22 11:40:26] DaoCommon Success: Returned 1 records
+[2025-10-22 11:40:26] BillRecordRepository: Bill created successfully
+[2025-10-22 11:40:26] BillRecordService: Attempting auto print for bill ID: 48
+[2025-10-22 11:40:26] DaoCommon params: [48]
+[2025-10-22 11:40:26] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-22 11:40:26] DaoCommon Success: Returned 1 records
+[2025-10-22 11:40:26] BillRecordRepository: Found bill - BIL-48
+[2025-10-22 11:40:26] BillRecordService: Starting Java Print Service for bill: 48
+[2025-10-22 11:40:26] BillRecordService: Found 6 printers
+[2025-10-22 11:40:26] BillRecordService: Available Printer: OneNote (Desktop)
+[2025-10-22 11:40:26] BillRecordService: Available Printer: Send To OneNote 2013
+[2025-10-22 11:40:26] BillRecordService: Available Printer: OneNote for Windows 10
+[2025-10-22 11:40:26] BillRecordService: Available Printer: Microsoft XPS Document Writer
+[2025-10-22 11:40:26] BillRecordService: Available Printer: Microsoft Print to PDF
+[2025-10-22 11:40:26] BillRecordService: Available Printer: Fax
+[2025-10-22 11:40:26] BillRecordService: No HP printer found, using default printer
+[2025-10-22 11:40:26] BillRecordService: Selected Printer: Microsoft Print to PDF
+[2025-10-22 11:40:26] BillRecordService: Sending print job to printer...
+[2025-10-22 11:40:26] BillRecordService: Print job submitted successfully for bill: 48
+[2025-10-22 11:40:26] BillRecordService:  Bill auto-printed successfully - ID: 48
+[2025-10-22 11:40:26] BillController: Bill created successfully - Number: BIL-48
+[2025-10-22 12:17:04] FrameController: POST Search request received - {search=wod}
+[2025-10-22 12:17:04] FrameController: POST Search request received - {search=wo}
+[2025-10-22 12:17:04] FrameService: Validating search term - wod
+[2025-10-22 12:17:04] FrameService: Calling repository to search frames
+[2025-10-22 12:17:04] FrameService: Validating search term - wo
+[2025-10-22 12:17:04] FrameService: Calling repository to search frames
+[2025-10-22 12:17:04] FrameRepository: Searching frames with termwod
+[2025-10-22 12:17:04] FrameRepository: Searching frames with termwo
+[2025-10-22 12:17:04] DaoCommon params: [wo]
+[2025-10-22 12:17:04] DaoCommon SQL: CALL search_frames(?)
+[2025-10-22 12:17:04] DaoCommon params: [wod]
+[2025-10-22 12:17:04] DaoCommon SQL: CALL search_frames(?)
+[2025-10-22 12:17:04] DaoCommon Success: Returned 0 records
+[2025-10-22 12:17:04] FrameRepository: Search found 0 frames
+[2025-10-22 12:17:04] FrameController: POST Search successful, returning 0 frames
+[2025-10-22 12:17:04] DaoCommon Success: Returned 1 records
+[2025-10-22 12:17:04] FrameRepository: Search found 1 frames
+[2025-10-22 12:17:04] FrameController: POST Search successful, returning 1 frames
+[2025-10-22 12:17:10] LensController: POST Search request received - {search=bl}
+[2025-10-22 12:17:10] LensService: Validating search term - bl
+[2025-10-22 12:17:10] LensService: Calling repository to search lenses
+[2025-10-22 12:17:10] LensRepository: Searching lenses with term - bl
+[2025-10-22 12:17:10] DaoCommon params: [bl]
+[2025-10-22 12:17:10] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-22 12:17:10] DaoCommon Success: Returned 2 records
+[2025-10-22 12:17:10] LensRepository: Search found 2 lenses
+[2025-10-22 12:17:10] LensController: POST Search successful, returning 2 lenses
+[2025-10-22 12:17:28] BillController: Create bill request received
+[2025-10-22 12:17:28] BillRecordService: Creating new bill for customer - kum
+[2025-10-22 12:17:28] BillRecordRepository: Creating new bill for kum
+[2025-10-22 12:17:28] DaoCommon params: [kum, 323413, chennai, 21, 1, 1, 500, 10, 1, 2200, 0, 0, 0, CASH, 1000]
+[2025-10-22 12:17:28] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-22 12:17:28] DaoCommon Success: Returned 1 records
+[2025-10-22 12:17:28] BillRecordRepository: Bill created successfully
+[2025-10-22 12:17:28] BillRecordService: Attempting auto print for bill ID: 49
+[2025-10-22 12:17:28] DaoCommon params: [49]
+[2025-10-22 12:17:28] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-22 12:17:28] DaoCommon Success: Returned 1 records
+[2025-10-22 12:17:28] BillRecordRepository: Found bill - BIL-49
+[2025-10-22 12:17:28] BillRecordService: Starting Java Print Service for bill: 49
+[2025-10-22 12:17:28] BillRecordService: Found 6 printers
+[2025-10-22 12:17:28] BillRecordService: Available Printer: OneNote (Desktop)
+[2025-10-22 12:17:28] BillRecordService: Available Printer: Send To OneNote 2013
+[2025-10-22 12:17:28] BillRecordService: Available Printer: OneNote for Windows 10
+[2025-10-22 12:17:28] BillRecordService: Available Printer: Microsoft XPS Document Writer
+[2025-10-22 12:17:28] BillRecordService: Available Printer: Microsoft Print to PDF
+[2025-10-22 12:17:28] BillRecordService: Available Printer: Fax
+[2025-10-22 12:17:28] BillRecordService: No HP printer found, using default printer
+[2025-10-22 12:17:28] BillRecordService: Selected Printer: Microsoft Print to PDF
+[2025-10-22 12:17:28] BillRecordService: Sending print job to printer...
+[2025-10-22 12:17:29] BillRecordService: Print job submitted successfully for bill: 49
+[2025-10-22 12:17:29] BillRecordService:  Bill auto-printed successfully - ID: 49
+[2025-10-22 12:17:29] BillController: Bill created successfully - Number: BIL-49
+[2025-10-22 13:28:01] LensController: POST Search request received - {search=bl}
+[2025-10-22 13:28:01] LensService: Validating search term - bl
+[2025-10-22 13:28:01] LensService: Calling repository to search lenses
+[2025-10-22 13:28:01] LensRepository: Searching lenses with term - bl
+[2025-10-22 13:28:01] DaoCommon params: [bl]
+[2025-10-22 13:28:01] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-22 13:28:01] DaoCommon Success: Returned 2 records
+[2025-10-22 13:28:01] LensRepository: Search found 2 lenses
+[2025-10-22 13:28:01] LensController: POST Search successful, returning 2 lenses
+[2025-10-22 13:28:08] FrameController: POST Search request received - {search=wo}
+[2025-10-22 13:28:08] FrameService: Validating search term - wo
+[2025-10-22 13:28:08] FrameService: Calling repository to search frames
+[2025-10-22 13:28:08] FrameRepository: Searching frames with termwo
+[2025-10-22 13:28:08] DaoCommon params: [wo]
+[2025-10-22 13:28:08] DaoCommon SQL: CALL search_frames(?)
+[2025-10-22 13:28:08] DaoCommon Success: Returned 1 records
+[2025-10-22 13:28:08] FrameRepository: Search found 1 frames
+[2025-10-22 13:28:08] FrameController: POST Search successful, returning 1 frames
+[2025-10-22 14:15:16] FrameController: POST Search request received - {search=si}
+[2025-10-22 14:15:16] FrameService: Validating search term - si
+[2025-10-22 14:15:16] FrameService: Calling repository to search frames
+[2025-10-22 14:15:16] FrameRepository: Searching frames with termsi
+[2025-10-22 14:15:16] DaoCommon params: [si]
+[2025-10-22 14:15:16] DaoCommon SQL: CALL search_frames(?)
+[2025-10-22 14:15:16] DaoCommon Success: Returned 1 records
+[2025-10-22 14:15:16] FrameRepository: Search found 1 frames
+[2025-10-22 14:15:16] FrameController: POST Search successful, returning 1 frames
+[2025-10-22 14:15:16] FrameController: POST Search request received - {search=sin}
+[2025-10-22 14:15:16] FrameService: Validating search term - sin
+[2025-10-22 14:15:16] FrameService: Calling repository to search frames
+[2025-10-22 14:15:16] FrameRepository: Searching frames with termsin
+[2025-10-22 14:15:16] DaoCommon params: [sin]
+[2025-10-22 14:15:16] DaoCommon SQL: CALL search_frames(?)
+[2025-10-22 14:15:16] DaoCommon Success: Returned 0 records
+[2025-10-22 14:15:16] FrameRepository: Search found 0 frames
+[2025-10-22 14:15:16] FrameController: POST Search successful, returning 0 frames
+[2025-10-22 14:15:17] FrameController: POST Search request received - {search=si}
+[2025-10-22 14:15:17] FrameService: Validating search term - si
+[2025-10-22 14:15:17] FrameService: Calling repository to search frames
+[2025-10-22 14:15:17] FrameRepository: Searching frames with termsi
+[2025-10-22 14:15:17] DaoCommon params: [si]
+[2025-10-22 14:15:17] DaoCommon SQL: CALL search_frames(?)
+[2025-10-22 14:15:17] DaoCommon Success: Returned 1 records
+[2025-10-22 14:15:17] FrameRepository: Search found 1 frames
+[2025-10-22 14:15:17] FrameController: POST Search successful, returning 1 frames
+[2025-10-22 14:15:20] LensController: POST Search request received - {search=si}
+[2025-10-22 14:15:20] LensService: Validating search term - si
+[2025-10-22 14:15:20] LensService: Calling repository to search lenses
+[2025-10-22 14:15:20] LensRepository: Searching lenses with term - si
+[2025-10-22 14:15:20] DaoCommon params: [si]
+[2025-10-22 14:15:20] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-22 14:15:20] DaoCommon Success: Returned 4 records
+[2025-10-22 14:15:20] LensRepository: Search found 4 lenses
+[2025-10-22 14:15:20] LensController: POST Search successful, returning 4 lenses
+[2025-10-22 14:15:20] LensController: POST Search request received - {search=sin}
+[2025-10-22 14:15:20] LensService: Validating search term - sin
+[2025-10-22 14:15:20] LensService: Calling repository to search lenses
+[2025-10-22 14:15:20] LensRepository: Searching lenses with term - sin
+[2025-10-22 14:15:20] DaoCommon params: [sin]
+[2025-10-22 14:15:20] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-22 14:15:20] DaoCommon Success: Returned 2 records
+[2025-10-22 14:15:20] LensRepository: Search found 2 lenses
+[2025-10-22 14:15:20] LensController: POST Search successful, returning 2 lenses
+[2025-10-22 14:15:46] LensController: POST Search request received - {search=si}
+[2025-10-22 14:15:46] LensService: Validating search term - si
+[2025-10-22 14:15:46] LensService: Calling repository to search lenses
+[2025-10-22 14:15:46] LensRepository: Searching lenses with term - si
+[2025-10-22 14:15:46] DaoCommon params: [si]
+[2025-10-22 14:15:46] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-22 14:15:46] DaoCommon Success: Returned 4 records
+[2025-10-22 14:15:46] LensRepository: Search found 4 lenses
+[2025-10-22 14:15:46] LensController: POST Search successful, returning 4 lenses
+[2025-10-22 14:16:43] FrameController: POST Search request received - {search=wo}
+[2025-10-22 14:16:43] FrameService: Validating search term - wo
+[2025-10-22 14:16:43] FrameService: Calling repository to search frames
+[2025-10-22 14:16:43] FrameRepository: Searching frames with termwo
+[2025-10-22 14:16:43] DaoCommon params: [wo]
+[2025-10-22 14:16:43] DaoCommon SQL: CALL search_frames(?)
+[2025-10-22 14:16:43] DaoCommon Success: Returned 1 records
+[2025-10-22 14:16:43] FrameRepository: Search found 1 frames
+[2025-10-22 14:16:43] FrameController: POST Search successful, returning 1 frames
+[2025-10-22 14:16:43] FrameController: POST Search request received - {search=woo}
+[2025-10-22 14:16:43] FrameService: Validating search term - woo
+[2025-10-22 14:16:43] FrameService: Calling repository to search frames
+[2025-10-22 14:16:43] FrameRepository: Searching frames with termwoo
+[2025-10-22 14:16:43] DaoCommon params: [woo]
+[2025-10-22 14:16:43] DaoCommon SQL: CALL search_frames(?)
+[2025-10-22 14:16:43] DaoCommon Success: Returned 1 records
+[2025-10-22 14:16:43] FrameRepository: Search found 1 frames
+[2025-10-22 14:16:43] FrameController: POST Search successful, returning 1 frames
+[2025-10-22 14:17:40] BillController: Create bill request received
+[2025-10-22 14:17:40] BillRecordService: Creating new bill for customer - kumaravel
+[2025-10-22 14:17:40] BillRecordRepository: Creating new bill for kumaravel
+[2025-10-22 14:17:40] DaoCommon params: [kumaravel, 8248225846, chennai, 21, 1, 1, 500, 7, 1, 5000, -2, 0, 0, CASH, 0]
+[2025-10-22 14:17:40] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-22 14:17:40] DaoCommon Success: Returned 1 records
+[2025-10-22 14:17:40] BillRecordRepository: Bill created successfully
+[2025-10-22 14:17:40] BillRecordService: Attempting auto print for bill ID: 50
+[2025-10-22 14:17:40] DaoCommon params: [50]
+[2025-10-22 14:17:40] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-22 14:17:40] DaoCommon Success: Returned 1 records
+[2025-10-22 14:17:40] BillRecordRepository: Found bill - BIL-50
+[2025-10-22 14:17:40] BillRecordService: Starting Java Print Service for bill: 50
+[2025-10-22 14:17:40] BillRecordService: Found 6 printers
+[2025-10-22 14:17:40] BillRecordService: Available Printer: OneNote (Desktop)
+[2025-10-22 14:17:40] BillRecordService: Available Printer: Send To OneNote 2013
+[2025-10-22 14:17:40] BillRecordService: Available Printer: OneNote for Windows 10
+[2025-10-22 14:17:40] BillRecordService: Available Printer: Microsoft XPS Document Writer
+[2025-10-22 14:17:40] BillRecordService: Available Printer: Microsoft Print to PDF
+[2025-10-22 14:17:40] BillRecordService: Available Printer: Fax
+[2025-10-22 14:17:40] BillRecordService: No HP printer found, using default printer
+[2025-10-22 14:17:40] BillRecordService: Selected Printer: Microsoft Print to PDF
+[2025-10-22 14:17:40] BillRecordService: Sending print job to printer...
+[2025-10-22 14:17:41] BillRecordService: Print job submitted successfully for bill: 50
+[2025-10-22 14:17:41] BillRecordService:  Bill auto-printed successfully - ID: 50
+[2025-10-22 14:17:41] BillController: Bill created successfully - Number: BIL-50
+[2025-10-22 14:19:45] FrameController: POST Search request received - {search=wo}
+[2025-10-22 14:19:45] FrameService: Validating search term - wo
+[2025-10-22 14:19:45] FrameService: Calling repository to search frames
+[2025-10-22 14:19:45] FrameRepository: Searching frames with termwo
+[2025-10-22 14:19:45] DaoCommon params: [wo]
+[2025-10-22 14:19:45] DaoCommon SQL: CALL search_frames(?)
+[2025-10-22 14:19:45] DaoCommon Success: Returned 1 records
+[2025-10-22 14:19:45] FrameRepository: Search found 1 frames
+[2025-10-22 14:19:45] FrameController: POST Search successful, returning 1 frames
+[2025-10-22 14:19:51] LensController: POST Search request received - {search=le}
+[2025-10-22 14:19:51] LensService: Validating search term - le
+[2025-10-22 14:19:51] LensService: Calling repository to search lenses
+[2025-10-22 14:19:51] LensRepository: Searching lenses with term - le
+[2025-10-22 14:19:51] DaoCommon params: [le]
+[2025-10-22 14:19:51] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-22 14:19:51] DaoCommon Success: Returned 2 records
+[2025-10-22 14:19:51] LensRepository: Search found 2 lenses
+[2025-10-22 14:19:51] LensController: POST Search successful, returning 2 lenses
+[2025-10-22 14:20:12] LensController: POST Search request received - {search=ls}
+[2025-10-22 14:20:12] LensService: Validating search term - ls
+[2025-10-22 14:20:12] LensService: Calling repository to search lenses
+[2025-10-22 14:20:12] LensRepository: Searching lenses with term - ls
+[2025-10-22 14:20:12] DaoCommon params: [ls]
+[2025-10-22 14:20:12] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-22 14:20:12] DaoCommon Success: Returned 0 records
+[2025-10-22 14:20:12] LensRepository: Search found 0 lenses
+[2025-10-22 14:20:12] LensController: POST Search successful, returning 0 lenses
+[2025-10-22 14:20:13] LensController: POST Search request received - {search=lsi}
+[2025-10-22 14:20:13] LensService: Validating search term - lsi
+[2025-10-22 14:20:13] LensService: Calling repository to search lenses
+[2025-10-22 14:20:13] LensRepository: Searching lenses with term - lsi
+[2025-10-22 14:20:13] DaoCommon params: [lsi]
+[2025-10-22 14:20:13] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-22 14:20:13] DaoCommon Success: Returned 0 records
+[2025-10-22 14:20:13] LensRepository: Search found 0 lenses
+[2025-10-22 14:20:13] LensController: POST Search successful, returning 0 lenses
+[2025-10-22 14:20:14] LensController: POST Search request received - {search=ls}
+[2025-10-22 14:20:14] LensService: Validating search term - ls
+[2025-10-22 14:20:14] LensService: Calling repository to search lenses
+[2025-10-22 14:20:14] LensRepository: Searching lenses with term - ls
+[2025-10-22 14:20:14] DaoCommon params: [ls]
+[2025-10-22 14:20:14] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-22 14:20:14] DaoCommon Success: Returned 0 records
+[2025-10-22 14:20:14] LensRepository: Search found 0 lenses
+[2025-10-22 14:20:14] LensController: POST Search successful, returning 0 lenses
+[2025-10-22 14:20:15] LensController: POST Search request received - {search=si}
+[2025-10-22 14:20:15] LensService: Validating search term - si
+[2025-10-22 14:20:15] LensService: Calling repository to search lenses
+[2025-10-22 14:20:15] LensRepository: Searching lenses with term - si
+[2025-10-22 14:20:15] DaoCommon params: [si]
+[2025-10-22 14:20:15] DaoCommon SQL: CALL search_lenses(?)
+[2025-10-22 14:20:15] DaoCommon Success: Returned 4 records
+[2025-10-22 14:20:15] LensRepository: Search found 4 lenses
+[2025-10-22 14:20:15] LensController: POST Search successful, returning 4 lenses
+[2025-10-22 14:20:22] BillController: Create bill request received
+[2025-10-22 14:20:22] BillRecordService: Creating new bill for customer - santhosh kumar
+[2025-10-22 14:20:22] BillRecordRepository: Creating new bill for santhosh kumar
+[2025-10-22 14:20:22] DaoCommon params: [santhosh kumar, 07397404254, chennai, 21, 1, 1, 500, 8, 1, 6500, 0, 0, 0, CASH, 0]
+[2025-10-22 14:20:22] DaoCommon SQL: CALL create_bill(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[2025-10-22 14:20:22] DaoCommon Success: Returned 1 records
+[2025-10-22 14:20:22] BillRecordRepository: Bill created successfully
+[2025-10-22 14:20:22] BillRecordService: Attempting auto print for bill ID: 51
+[2025-10-22 14:20:22] DaoCommon params: [51]
+[2025-10-22 14:20:22] DaoCommon SQL: CALL get_bill_by_id(?)
+[2025-10-22 14:20:22] DaoCommon Success: Returned 1 records
+[2025-10-22 14:20:22] BillRecordRepository: Found bill - BIL-51
+[2025-10-22 14:20:22] BillRecordService: Starting Java Print Service for bill: 51
+[2025-10-22 14:20:22] BillRecordService: Found 6 printers
+[2025-10-22 14:20:22] BillRecordService: Available Printer: OneNote (Desktop)
+[2025-10-22 14:20:22] BillRecordService: Available Printer: Send To OneNote 2013
+[2025-10-22 14:20:22] BillRecordService: Available Printer: OneNote for Windows 10
+[2025-10-22 14:20:22] BillRecordService: Available Printer: Microsoft XPS Document Writer
+[2025-10-22 14:20:22] BillRecordService: Available Printer: Microsoft Print to PDF
+[2025-10-22 14:20:22] BillRecordService: Available Printer: Fax
+[2025-10-22 14:20:22] BillRecordService: No HP printer found, using default printer
+[2025-10-22 14:20:22] BillRecordService: Selected Printer: Microsoft Print to PDF
+[2025-10-22 14:20:22] BillRecordService: Sending print job to printer...
+[2025-10-22 14:20:22] BillRecordService: Print job submitted successfully for bill: 51
+[2025-10-22 14:20:22] BillRecordService:  Bill auto-printed successfully - ID: 51
+[2025-10-22 14:20:22] BillController: Bill created successfully - Number: BIL-51
+[2025-10-22 14:24:22] FrameController: POST Search request received - {search=wo}
+[2025-10-22 14:24:22] FrameService: Validating search term - wo
+[2025-10-22 14:24:22] FrameService: Calling repository to search frames
+[2025-10-22 14:24:22] FrameRepository: Searching frames with termwo
+[2025-10-22 14:24:22] DaoCommon params: [wo]
+[2025-10-22 14:24:22] DaoCommon SQL: CALL search_frames(?)
+[2025-10-22 14:24:22] DaoCommon Success: Returned 1 records
+[2025-10-22 14:24:22] FrameRepository: Search found 1 frames
+[2025-10-22 14:24:22] FrameController: POST Search successful, returning 1 frames
